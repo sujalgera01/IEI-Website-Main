@@ -13,7 +13,7 @@ body {
 	height: 100vh;
 }
 
-.container {
+header {
 	display: flex;
 }
 
@@ -49,4 +49,44 @@ body {
 	padding-bottom: 5px;
 	border-bottom: 3px solid white;
 	border-radius: 2px;
+}
+
+.mid-content-large {
+	display: flex;
+	color: #93ABE3;
+	padding-left: 22%;
+	/*padding-top: px;*/
+}
+
+.mid-content-small {
+	color: #fff;
+	padding-top: 20px;
+	font-size: 22px;
+}
+
+hr {
+	/*margin: auto;*/
+	height: 0.5px;
+	border: none;
+	margin-top: 5px;
+	margin-left: -15px;
+	width: 150%;
+	color: #fff;
+	background-color: #fff;
+}
+
+.par1 {
+	font-size: 54px;
+	line-height: 77px;
+	padding-right: 65px;
+}
+
+.par11 {
+	padding-left: 65px;
+}
+
+#small-text {
+	font-size: 26px;
+	color: #fff;
+	padding-left: 22%;
 }

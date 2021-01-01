@@ -10,6 +10,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 100vh;
+	overflow-y: hidden;
 }
 
 header {
@@ -22,15 +23,15 @@ header {
 }
 
 .logo img {
-	height: 115px;
-	width: 115px;
+	height: 90px;
+	width: 90px;
 	margin-left: 23px;
 	margin-top: 20px;
 }
 
 figcaption {
 	color: #fff;
-	padding-left: 50px;
+	padding-left: 40px;
 }
 
 ul {
@@ -54,22 +55,18 @@ ul {
 	display: block;
 	width: 100%;
 	padding: 0px 50px;
-	font-size: 24px;
+	font-size: 20px;
+	padding-bottom: 10px;
 }
 
 .nav ul li {
 	position: relative;
-	animation: 3s autoplay ease-in-out;
-}
-
-@keyframes autoplay {
-	0% {top: -100%}
-  50% {top: 0%}
-  100%{top: 0%}
+	animation: 2s autoplay ease-out;
 }
 
 .nav ul li a:hover {
-	border-bottom: 1px solid #fff;
+	border-bottom: 0.5px solid #fff;
+	border-right-width: 5%;
 	transition: 0.1s;
 	color: #fff;
 	border-bottom-width: thin;
@@ -142,7 +139,10 @@ hr {
 	position: absolute;
 	top: 35%;
 	left: 33%;
+	animation: fadeIn 1s ease-in both;
 }
+
+
 
 .single-line {
 	display: inline-flex;
@@ -172,8 +172,9 @@ background-color: #248332;
 
 .first-bottom {
 	position: absolute;
-	bottom: 5%;
+	bottom: 3%;
 	left: 45%;
+	animation: autoplaytwo 1s 1;
 }
 
 #p2 {
@@ -185,4 +186,34 @@ background-color: #248332;
 	height: 30px;
 	width: 30px;
 	margin: 0 40%;
+}
+
+@keyframes autoplay {
+	0% {
+		top: -100%;
+	}
+  	50% {
+  		top: 0%;
+  	}
+  	100% {
+  		top: 0%;
+  	}
+}
+
+@keyframes autoplaytwo {
+	0% {
+		bottom: -100%;
+	}
+	100% {
+		bottom: 3%;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }

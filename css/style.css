@@ -5,6 +5,10 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+body {
+	overflow: hidden;
+}
+
 .container {
 	background-image: url("../images/background.jpg");
 	background-size: cover;
@@ -119,6 +123,9 @@ hr {
 	padding-left: 22%;
 }
 
+.single-line {
+	text-align: center;
+}
 
 #p1{
     font-family: Raleway;

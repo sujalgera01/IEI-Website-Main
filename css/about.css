@@ -1,0 +1,26 @@
+.navbar-container {
+	background: url("../images/aboutbg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 50vh;
+	background-position: center;
+}
+
+.headline {
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	text-align: center;
+	color: #fff;
+	text-align: center;
+	margin-top: 10%;
+	border: 2px solid #fff;
+	
+}
+
+.main-block {
+	background: url("../images/background.jpg");
+	background-size: cover;
+	background-repeat: repeat-y;
+	min-height: 200vh;
+}
+

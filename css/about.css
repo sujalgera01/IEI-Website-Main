@@ -1,0 +1,102 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo img {
+	height: 90px;
+	width: 90px;
+	margin-left: 23px;
+	margin-top: 20px;
+}
+
+figcaption {
+	color: #fff;
+	padding-left: 40px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.nav ul {
+	/*position: fixed;*/
+	top: 0;
+	right: 0;
+	width: 65%;
+	display: flex;
+	text-align: left;
+	padding-top: 50px;
+	height: 100%;
+}
+
+.nav ul li a {
+	color: #93ABE3;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	padding: 0px 60px;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.nav ul li {
+	position: relative;
+	animation: 2s autoplay ease-out;
+}
+
+.nav ul li a .middle
+{
+    position: relative;
+}
+
+header .nav ul li a.middle:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 100px;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul li a.middle:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.navbar-container {
+	background: url("../images/aboutbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 50vh;
+}
+
+.headline {
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	text-align: center;
+	color: #fff;
+	text-align: center;
+	border: 3px solid #fff;
+	border-width: 10%;
+	display: block;
+	word-spacing: 10px;
+	padding: 20px;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+.main-block {
+	background: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}

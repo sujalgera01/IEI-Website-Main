@@ -1,6 +1,12 @@
 * {
 	padding: 0;
 	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 header {
@@ -99,4 +105,60 @@ header .nav ul li a.middle:before {
 	background: url("../images/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	overflow-x: hidden;
+}
+
+.sideblock {
+	display: flex;
+	position: relative;
+}
+
+.sideblock img {
+	height: 250px;
+	width: 400px;
+	margin-right: 100px;
+	border: 3px solid #fff;
+	padding: 3.5px;
+}
+
+#h5 {
+	color: #93ABE3;
+	font-size: 40px;
+	padding: 50px 50px;
+}
+
+
+.sideblock p {
+	color: #fff;
+	font-size: 25px;
+	padding: 10px 50px;
+
+}
+
+#h3 {
+	color: #93ABE3;
+	font-size: 70px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.values p {
+	color: #fff;
+	font-size: 25px;
+	padding: 0px 50px;
+}
+
+.vp {
+	text-align: center;
+}
+
+hr {
+	width: 20%;
+	margin-left: 40%;
+	text-align: right;
+	margin-top: 100px;
+}
+
+#lastp {
+	padding-bottom: 50px;
 }

@@ -212,3 +212,31 @@ hr {
     font-size: inherit;
   }
 }
+@media (max-width: 550px) {
+  #p1 {
+    font-size: 0.8rem;
+  }
+  #a,
+  #b,
+  #c {
+    height: 25px;
+    width: 5px;
+  }
+  .h2 {
+    font-size: 0.69rem;
+    margin-right: 50px;
+  }
+  .par1 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .mid-content1-small {
+    font-size: 0.8rem;
+  }
+  .par11 {
+    padding-left: 40px;
+  }
+  #p2 {
+    font-size: 0.8rem;
+  }
+}

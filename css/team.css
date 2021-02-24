@@ -107,3 +107,60 @@ header .nav ul li a.middle:before {
 	letter-spacing: 5px;
 	border-bottom: 2px solid #fff;
 }
+
+.bottom-container {
+	background: url("../images/teamsbg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+
+.containers{
+    height: 165px;
+    width: 190px;
+    background-color: rgb(38, 38, 56);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.img{
+    height: 190px;
+    width: 190px;
+    background-color:rgb(38, 38, 56);
+    background-image: url(../images/aniket.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.containers h4{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;           
+    position: absolute;
+    content: '';
+    top: 65%;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 19px;
+}
+        
+.containers p{
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    content: '';
+    top: 80%;
+    color: #93ABE3;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+

@@ -113,7 +113,7 @@ header .nav ul li a.middle:before {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	min-height: 250vh;
+	min-height: 280vh;
 }
 
 
@@ -176,48 +176,12 @@ header .nav ul li a.middle:before {
 	background-color: rgb(38, 38, 56);
 	margin: 30px;
 	padding: 3px;
-	width: 200px;
+	height: 165px;
+	width: 185px;
 }
-.img2{
-    height: 190px;
-    width: 190px;
-    background-color:rgb(38, 38, 56);
-    background-image: url(../images/aniket.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    position: relative;
-    top: 11%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.img3{
-    height: 190px;
-    width: 190px;
-    background-color:rgb(38, 38, 56);
-    background-image: url(../images/aniket.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    position: relative;
-    top: 11%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.img4{
-    height: 190px;
-    width: 190px;
-    background-color:rgb(38, 38, 56);
-    background-image: url(../images/aniket.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    position: relative;
-    top: 11%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.img5{
+.img2,.img3,.img4,.img5,
+.img6,.img7,.img8,.img9,
+.img10,.img11,.img12,.img13{
     height: 190px;
     width: 190px;
     background-color:rgb(38, 38, 56);
@@ -236,22 +200,39 @@ header .nav ul li a.middle:before {
     color: #fff;           
     position: relative;
     content: '';
-    top: -30%;
-    text-align: center;
-    padding-left: 0px;
-    font-size: 19px;
+    top: -50%;
+    margin-left: 5px;
+    font-size: 17px;
 }
+
 .item p{
     font-family: 'Raleway', sans-serif;
     position: absolute;
     content: '';
-    top: 60%;
+    top: 55%;
     color: #93ABE3;
-    font-size: 15px;
-    text-align: center;
-    padding-left: 10px;
+    font-size: 14px;
+    margin-left: 5px;
+    /*text-align: center;*/
+    /*padding-left: 10px;*/
     letter-spacing: 1px;
 }
+
+.item #op1 {
+	top: 61%;
+	color: #00C1DF;
+	font-size: 13px;
+	margin-left: 4%;
+}
+
+
+.item #op2 {
+	top: 61%;
+	color: #00C1DF;
+	font-size: 13px;
+	margin-left: 6.5%;
+}
+
 .container-2{
 	position: absolute;
 	margin-top: 1000px;
@@ -261,58 +242,7 @@ header .nav ul li a.middle:before {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
-.img6{
-    height: 190px;
-    width: 190px;
-    background-color:rgb(38, 38, 56);
-    background-image: url(../images/aniket.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    position: relative;
-    top: 11%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.img7{
-    height: 190px;
-    width: 190px;
-    background-color:rgb(38, 38, 56);
-    background-image: url(../images/aniket.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    position: relative;
-    top: 11%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.img8{
-    height: 190px;
-    width: 190px;
-    background-color:rgb(38, 38, 56);
-    background-image: url(../images/aniket.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    position: relative;
-    top: 11%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.img9{
-    height: 190px;
-    width: 190px;
-    background-color:rgb(38, 38, 56);
-    background-image: url(../images/aniket.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    position: relative;
-    top: 11%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
+
 .container-3{
 	position: absolute;
 	margin-top: 1450px;
@@ -322,60 +252,3 @@ header .nav ul li a.middle:before {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
-.img10{
-    height: 190px;
-    width: 190px;
-    background-color:rgb(38, 38, 56);
-    background-image: url(../images/aniket.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    position: relative;
-    top: 11%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.img11{
-    height: 190px;
-    width: 190px;
-    background-color:rgb(38, 38, 56);
-    background-image: url(../images/aniket.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    position: relative;
-    top: 11%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.img12{
-    height: 190px;
-    width: 190px;
-    background-color:rgb(38, 38, 56);
-    background-image: url(../images/aniket.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    position: relative;
-    top: 11%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.img13{
-    height: 190px;
-    width: 190px;
-    background-color:rgb(38, 38, 56);
-    background-image: url(../images/aniket.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    position: relative;
-    top: 11%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-
-
-
-/*Code css wala yahi upar wala h or jyada changes ni krne pdenge*/

@@ -6,18 +6,20 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
 	<link rel="stylesheet" type="text/css" href="./css/team.css">
-
 	<!-- Font Links -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
 
+
+
+<body>
 	<div class="main-container">
 		<div class="navbar-container">
-
+			<div class="dropbtn">
+				<a href="#">LINKS</a>
+			</div>
 			<header>
 				<div class="logo">
 					<img src="./images/logo.svg">
@@ -31,9 +33,9 @@
 						<li><a class="middle" href="#">EVENT</a></li>
 						<li><a class="middle" href="#">CONTACT</a></li>
 						<li><a class="middle" href="#">NEWSLETTER</a></li>
-
 					</ul>
 				</div>
+
 			</header>
 
 			<p class="headline">meet our <span id="span1"><b>TEAM</b></span></p>
@@ -148,7 +150,24 @@
 
 		</div>
 	</div>
+	<script>
+		let dropbtn = document.querySelector('.dropbtn a');
+		let navUl = document.querySelector('.nav ul');
+		if (dropbtn.style.display === "none") {
+			console.log("none")
+			navUl.style.display = "flex";
+		} else {
+			dropbtn.addEventListener('click', (e) => {
+				e.preventDefault();
+				if (navUl.style.display === "none") {
+					navUl.style.display = "flex";
+				} else {
+					navUl.style.display = "none";
+				}
+			})
+		}
 
+	</script>
 </body>
 
 </html>

@@ -107,3 +107,148 @@ header .nav ul li a.middle:before {
 	letter-spacing: 5px;
 	border-bottom: 2px solid #fff;
 }
+
+.bottom-container {
+	background: url("../images/teamsbg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 280vh;
+}
+
+
+.containers{
+    height: 165px;
+    width: 190px;
+    background-color: rgb(38, 38, 56);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.img1{
+    height: 190px;
+    width: 190px;
+    background-color:rgb(38, 38, 56);
+    background-image: url(../images/aniket.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.containers h4{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;           
+    position: absolute;
+    content: '';
+    top: 65%;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 19px;
+}
+        
+.containers p{
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    content: '';
+    top: 80%;
+    color: #93ABE3;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+.container-1{
+	position: absolute;
+	margin-top: 550px;
+	height: 300px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.item{
+	background-color: rgb(38, 38, 56);
+	margin: 30px;
+	padding: 3px;
+	height: 165px;
+	width: 185px;
+}
+.img2,.img3,.img4,.img5,
+.img6,.img7,.img8,.img9,
+.img10,.img11,.img12,.img13{
+    height: 190px;
+    width: 190px;
+    background-color:rgb(38, 38, 56);
+    background-image: url(../images/aniket.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: relative;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.item h4{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;           
+    position: relative;
+    content: '';
+    top: -50%;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.item p{
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    content: '';
+    top: 55%;
+    color: #93ABE3;
+    font-size: 14px;
+    margin-left: 5px;
+    /*text-align: center;*/
+    /*padding-left: 10px;*/
+    letter-spacing: 1px;
+}
+
+.item #op1 {
+	top: 61%;
+	color: #00C1DF;
+	font-size: 13px;
+	margin-left: 4%;
+}
+
+
+.item #op2 {
+	top: 61%;
+	color: #00C1DF;
+	font-size: 13px;
+	margin-left: 6.5%;
+}
+
+.container-2{
+	position: absolute;
+	margin-top: 1000px;
+	height: 300px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.container-3{
+	position: absolute;
+	margin-top: 1450px;
+	height: 300px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}

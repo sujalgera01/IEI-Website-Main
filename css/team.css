@@ -11,10 +11,12 @@ body {
   flex-direction: column;
   margin: 0;
 }
+
 .main-container {
   height: 100%;
   width: 100%;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -89,6 +91,7 @@ header .nav ul li a.middle:before {
 .dropbtn {
   display: none;
 }
+
 .navbar-container {
   /*position: relative;*/
   background: url("../images/team.jpg");
@@ -175,6 +178,7 @@ header .nav ul li a.middle:before {
   padding-left: 10px;
   letter-spacing: 1px;
 }
+
 .container-1 {
   position: absolute;
   margin-top: 550px;
@@ -184,6 +188,7 @@ header .nav ul li a.middle:before {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 .item {
   background-color: rgb(38, 38, 56);
   margin: 30px;
@@ -191,6 +196,7 @@ header .nav ul li a.middle:before {
   height: 165px;
   width: 185px;
 }
+
 .img2,
 .img3,
 .img4,
@@ -284,6 +290,7 @@ header .nav ul li a.middle:before {
     width: 80px;
   }
 }
+
 @media (max-width: 1300px) {
   .logo img {
     height: 70px;
@@ -330,7 +337,6 @@ header .nav ul li a.middle:before {
     height: 125px;
     width: 140px;
   }
-
   .item {
     height: 125px;
     width: 130px;
@@ -366,7 +372,6 @@ header .nav ul li a.middle:before {
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
   }
-
   .nav ul li a.middle:hover:before {
     visibility: visible;
     transform: scaleX(1);
@@ -427,7 +432,6 @@ header .nav ul li a.middle:before {
     height: 95px;
     width: 100px;
   }
-
   .item {
     height: 95px;
     width: 100px;
@@ -471,12 +475,12 @@ header .nav ul li a.middle:before {
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
   }
-
   .nav ul li a.middle:hover:before {
     visibility: visible;
     transform: scaleX(1);
   }
 }
+
 @media (max-width: 780px) {
   header {
     flex-direction: column;
@@ -493,7 +497,6 @@ header .nav ul li a.middle:before {
     display: none;
     z-index: 9;
   }
-
   .nav ul li a {
     padding: 5px 0px;
     margin: 5px 0;
@@ -511,7 +514,6 @@ header .nav ul li a.middle:before {
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
   }
-
   .nav ul li a.middle:hover:before {
     visibility: visible;
     transform: scaleX(1);
@@ -536,8 +538,154 @@ header .nav ul li a.middle:before {
     display: block;
   }
 }
+
 @media (max-width: 670px) {
-  .container-1 {
-    flex-direction: row;
+  .headline {
+    font-size: 20px;
+    margin-top: 100px;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7,
+  .img8,
+  .img9,
+  .img10,
+  .img11,
+  .img12,
+  .img13 {
+    height: 100px;
+    width: 100px;
+  }
+  .containers h4 {
+    font-size: 14px;
+    padding: 0;
+    margin-top: 0;
+  }
+  .containers p {
+    font-size: 14px;
+    font-weight: 800;
+    top: 105%;
+    margin-top: 5px;
+    padding: 0;
+  }
+  .containers {
+    height: 95px;
+    width: 100px;
+  }
+  .item {
+    height: 80px;
+    width: 60px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 70px;
+  }
+  .item h4 {
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .item p {
+    font-size: 12px;
+    font-weight: 800;
+    position: relative;
+    top: -30px;
+    padding: 0;
+    margin: 0;
+  }
+  .item #op1 {
+    font-size: 12px;
+    position: relative;
+    top: -40px;
+    margin-bottom: 40px;
+  }
+  .item #op2 {
+    font-size: 12px;
+    /* top: 49%; */
+    position: relative;
+    top: -35px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .dropbtn {
+    display: inline;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7,
+  .img8,
+  .img9,
+  .img10,
+  .img11,
+  .img12,
+  .img13 {
+    height: 80px;
+    width: 80px;
+  }
+  .containers h4 {
+    font-size: 12px;
+    padding: 0;
+    margin-top: 0;
+  }
+  .containers p {
+    font-size: 12px;
+    font-weight: 800;
+    top: 105%;
+    margin-top: 0px;
+    padding: 0;
+  }
+  .containers {
+    height: 95px;
+    width: 95px;
+  }
+  .item {
+    height: 80px;
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  .item h4 {
+    font-size: 11px;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 13px;
+    padding: 0;
+  }
+  .item p {
+    font-size: 11px;
+    font-weight: 800;
+    position: relative;
+    top: -30px;
+    padding: 0;
+    margin: 0;
+  }
+  .item #op1 {
+    font-size: 12px;
+    position: relative;
+    top: -40px;
+    margin-bottom: 40px;
+  }
+  .item #op2 {
+    font-size: 12px;
+    /* top: 49%; */
+    position: relative;
+    top: -35px;
+    margin-bottom: 20px;
   }
 }

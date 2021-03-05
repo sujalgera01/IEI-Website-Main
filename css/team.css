@@ -185,7 +185,6 @@ header .nav ul li a.middle:before {
     height: 190px;
     width: 190px;
     background-color:rgb(38, 38, 56);
-    background-image: url(../images/aniket.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -193,6 +192,44 @@ header .nav ul li a.middle:before {
     top: 11%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.img2 {
+    background-image: url(../images/shobbit.png);
+}
+
+.img3 {
+    background-image: url(../images/shachi.png);
+}
+.img4 {
+    background-image: url(../images/rishab.png);
+}
+.img5 {
+    background-image: url(../images/vishal.png);
+}
+.img6 {
+    background-image: url(../images/sukarn.png);
+}
+.img7 {
+    background-image: url(../images/abhimanyu.png);
+}
+.img8 {
+    background-image: url(../images/yatharth.png);
+}
+.img9 {
+    background-image: url(../images/astha.png);
+}
+.img10 {
+	background-image: url(../images/aditya.png);
+}
+.img11 {
+    background-image: url(../images/mohak.png);
+}
+.img12 {
+    background-image: url(../images/himanshu.png);
+}
+.img13 {
+    background-image: url(../images/tathagat.png);
 }
 
 .item h4{
@@ -251,4 +288,12 @@ header .nav ul li a.middle:before {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+}
+
+#sp1 {
+	font-size: 13px;
+}
+
+#sp2 {
+	font-size: 16px;
 }

@@ -125,6 +125,15 @@ header .nav ul li a.middle:before {
     top: 100%;
     left: 50%;
 	transform: translate(-50%,-50%);
+	transition: 0.5s ease-in-out;
+}
+
+.containers:hover {
+	height: 220px;
+}
+
+.containers p:hover {
+	visibility: hidden;
 }
 
 .img1{
@@ -132,6 +141,7 @@ header .nav ul li a.middle:before {
     width: 190px;
     background-color:rgb(38, 38, 56);
     background-image: url(../images/aniket.jpg);
+    position: fixed;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -178,7 +188,14 @@ header .nav ul li a.middle:before {
 	padding: 3px;
 	height: 165px;
 	width: 185px;
+	transition: 0.5s ease-in-out;
 }
+
+
+.item:hover {
+	height: 220px;
+}
+
 .img2,.img3,.img4,.img5,
 .img6,.img7,.img8,.img9,
 .img10,.img11,.img12,.img13{
@@ -296,4 +313,31 @@ header .nav ul li a.middle:before {
 
 #sp2 {
 	font-size: 16px;
+}
+
+.cursor {
+	position: fixed;
+	height: 40px;
+	width: 40px;
+	border: 1px solid #c6c6c6;
+	border-radius: 50%;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	transform: translate(-50%,-50%);
+	transition: .1s;
+}
+
+.cursor2 {
+	position: fixed;
+	height: 8px;
+	width: 8px;
+	background-color: #c6c6c6;
+	border-radius: 50%;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	transform: translate(-50%,-50%);
+	transition: .15s;
+
 }

@@ -162,7 +162,8 @@ header .nav ul li a.middle:before {
     font-size: 19px;
 }
         
-.containers p{
+.containers p,
+.containers .inter p{
     font-family: 'Raleway', sans-serif;
     position: absolute;
     content: '';
@@ -339,5 +340,8 @@ header .nav ul li a.middle:before {
 	pointer-events: none;
 	transform: translate(-50%,-50%);
 	transition: .15s;
+}
 
+.containers .inter {
+	display: none;
 }

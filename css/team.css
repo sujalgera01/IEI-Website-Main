@@ -142,6 +142,7 @@ header .nav ul li a.middle:before {
   transform: translate(-50%, -50%);
 }
 
+<<<<<<< HEAD
 .img1 {
   height: 190px;
   width: 190px;
@@ -154,6 +155,40 @@ header .nav ul li a.middle:before {
   top: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
+=======
+.containers{
+    height: 165px;
+    width: 190px;
+    background-color: rgb(38, 38, 56);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+	transform: translate(-50%,-50%);
+	transition: 0.5s ease-in-out;
+}
+
+.containers:hover {
+	height: 220px;
+}
+
+.containers p:hover {
+	visibility: hidden;
+}
+
+.img1{
+    height: 190px;
+    width: 190px;
+    background-color:rgb(38, 38, 56);
+    background-image: url(../images/aniket.jpg);
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+>>>>>>> c13a2ebadcf6c65c46aabf7288042e632940117f
 }
 
 .containers h4 {
@@ -166,6 +201,7 @@ header .nav ul li a.middle:before {
   padding-left: 10px;
   font-size: 19px;
 }
+<<<<<<< HEAD
 
 .containers p {
   font-family: "Raleway", sans-serif;
@@ -187,6 +223,105 @@ header .nav ul li a.middle:before {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+=======
+        
+.containers p,
+.containers .inter p{
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    content: '';
+    top: 80%;
+    color: #93ABE3;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+.container-1{
+	position: absolute;
+	margin-top: 550px;
+	height: 300px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.item{
+	background-color: rgb(38, 38, 56);
+	margin: 30px;
+	padding: 3px;
+	height: 165px;
+	width: 185px;
+	transition: 0.5s ease-in-out;
+}
+
+
+.item:hover {
+	height: 220px;
+}
+
+.img2,.img3,.img4,.img5,
+.img6,.img7,.img8,.img9,
+.img10,.img11,.img12,.img13{
+    height: 190px;
+    width: 190px;
+    background-color:rgb(38, 38, 56);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: relative;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img2 {
+    background-image: url(../images/shobbit.png);
+}
+
+.img3 {
+    background-image: url(../images/shachi.png);
+}
+.img4 {
+    background-image: url(../images/rishab.png);
+}
+.img5 {
+    background-image: url(../images/vishal.png);
+}
+.img6 {
+    background-image: url(../images/sukarn.png);
+}
+.img7 {
+    background-image: url(../images/abhimanyu.png);
+}
+.img8 {
+    background-image: url(../images/yatharth.png);
+}
+.img9 {
+    background-image: url(../images/astha.png);
+}
+.img10 {
+	background-image: url(../images/aditya.png);
+}
+.img11 {
+    background-image: url(../images/mohak.png);
+}
+.img12 {
+    background-image: url(../images/himanshu.png);
+}
+.img13 {
+    background-image: url(../images/tathagat.png);
+}
+
+.item h4{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;           
+    position: relative;
+    content: '';
+    top: -50%;
+    margin-left: 5px;
+    font-size: 17px;
+>>>>>>> c13a2ebadcf6c65c46aabf7288042e632940117f
 }
 
 .item {
@@ -688,4 +823,42 @@ header .nav ul li a.middle:before {
     top: -35px;
     margin-bottom: 20px;
   }
+}
+
+#sp1 {
+	font-size: 13px;
+}
+
+#sp2 {
+	font-size: 16px;
+}
+
+.cursor {
+	position: fixed;
+	height: 40px;
+	width: 40px;
+	border: 1px solid #c6c6c6;
+	border-radius: 50%;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	transform: translate(-50%,-50%);
+	transition: .1s;
+}
+
+.cursor2 {
+	position: fixed;
+	height: 8px;
+	width: 8px;
+	background-color: #c6c6c6;
+	border-radius: 50%;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	transform: translate(-50%,-50%);
+	transition: .15s;
+}
+
+.containers .inter {
+	display: none;
 }

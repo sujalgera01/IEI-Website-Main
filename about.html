@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>About Us</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -10,34 +11,42 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
+
 <body>
-	
-</body>
+
 
 	<div class="container2">
 
 		<!-- Navbar -->
 		<div class="navbar-container">
-		
-		<header>
-			<div class="logo">
-				<img src="images/logo.svg">
-				<figcaption>IE(I)-VIT</figcaption>
-			</div>
-			<div class="nav">
-				<ul>
-					<li><a class="middle" href="./index.html">HOME</a></li>
-					<li><a class="middle" href="./about.html">ABOUT</a></li>
-					<li><a class="middle" href="./team.html">TEAM</a></li>
-					<li><a class="middle" href="#">EVENT</a></li>
-					<li><a class="middle" href="#">CONTACT</a></li>
-					<li><a class="middle" href="#">NEWSLETTER</a></li>
 
-				</ul>
-			</div>
-		</header>
+			<header class="navbar">
+				<div class="logo">
+					<img src="images/logo.svg">
+					<figcaption>IE(I)-VIT</figcaption>
+				</div>
+				<div class="nav">
+					<ul class="nav-menu">
+						<li class="nav-item"><a class="middle" href="./index.html">HOME</a></li>
+						<li class="nav-item"><a class="middle" href="./about.html">ABOUT</a></li>
+						<li class="nav-item"><a class="middle" href="./team.html">TEAM</a></li>
+						<li class="nav-item"><a class="middle" href="#">EVENT</a></li>
+						<li class="nav-item"><a class="middle" href="#">CONTACT</a></li>
+						<li class="nav-item"><a class="middle" href="#">NEWSLETTER</a></li>
 
-		<p class="headline"><b>LESS THAN TEAM , MORE LIKE A FAMILY</b></p>
+					</ul>
+				</div>
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<div id="extra-div">
+					<span></span>
+				</div>
+			</header>
+
+			<p class="headline"><b>LESS THAN TEAM , MORE LIKE A FAMILY</b></p>
 		</div>
 
 		<!-- Navbar Ends -->
@@ -46,16 +55,22 @@
 		<div class="main-block">
 			<h5 id="h5">OUR DNA</h5>
 			<div class="sideblock">
-				<p>The Institution of Engineers (India)  is a statutory body to promote and  
-					advance the engineering and technology, established in 1920 and 
-					incorporated by Royal Charter in 1935. It is the largest multi-disciplinary professional body of engineers encompassing 15 (fifteen) engineering disciplines with a Corporate membership of over 2 lakhs, and serving the nation for more than 9 decades. The IEI has its headquarters located in Kolkata with national presence through more than hundred Centres and several Overseas Chapters, Foras and Organ.
+				<p>The Institution of Engineers (India) is a statutory body to promote and
+					advance the engineering and technology, established in 1920 and
+					incorporated by Royal Charter in 1935. It is the largest multi-disciplinary professional body of
+					engineers encompassing 15 (fifteen) engineering disciplines with a Corporate membership of over 2
+					lakhs,
+					and serving the nation for more than 9 decades. The IEI has its headquarters located in Kolkata with
+					national presence through more than hundred Centres and several Overseas Chapters, Foras and Organ.
 				</p>
 				<img src="images/aboutcontent.jpg">
 			</div>
 
 			<div class="values">
 				<h5 id="h5">PRLA VALUES</h5>
-				<p>This is the fabric of our culture  and the framework of all the decisions that <br> are made within these walls. Heads up, they tend to be contagious</p>
+				<p>This is the fabric of our culture and the framework of all the decisions that <br> are made within
+					these
+					walls. Heads up, they tend to be contagious</p>
 
 				<hr class="hr">
 				<h3 id="h3">AUTHENTICITY</h3>
@@ -83,7 +98,28 @@
 			</div>
 		</div>
 		<!-- Main Block Ends -->
-		
+
 	</div>
+	<script>
+		const hamburger = document.querySelector(".hamburger");
+		const navMenu = document.querySelector(".nav-menu");
+
+		hamburger.addEventListener("click", mobileMenu);
+
+		function mobileMenu() {
+			hamburger.classList.toggle("active");
+			navMenu.classList.toggle("active");
+		}
+
+		const middle = document.querySelectorAll(".middle");
+
+		middle.forEach(n => n.addEventListener("click", closeMenu));
+
+		function closeMenu() {
+			hamburger.classList.remove("active");
+			navMenu.classList.remove("active");
+		}
+	</script>
+</body>
 
 </html>

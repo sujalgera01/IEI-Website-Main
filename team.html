@@ -18,21 +18,30 @@
 	<div class="main-container">
 		<div class="navbar-container">
 
-			<header>
+			<header class="navbar">
+
 				<div class="logo">
 					<img src="./images/logo.svg">
 					<figcaption>IE(I)-VIT</figcaption>
 				</div>
 				<div class="nav">
-					<ul>
-						<li><a class="middle" href="./index.html">HOME</a></li>
-						<li><a class="middle" href="./about.html">ABOUT</a></li>
-						<li><a class="middle" href="./team.html">TEAM</a></li>
-						<li><a class="middle" href="#">EVENT</a></li>
-						<li><a class="middle" href="#">CONTACT</a></li>
-						<li><a class="middle" href="#">NEWSLETTER</a></li>
+					<ul class="nav-menu">
+						<li class="nav-item"><a class="middle" href="./index.html">HOME</a></li>
+						<li class="nav-item"><a class="middle" href="./about.html">ABOUT</a></li>
+						<li class="nav-item"><a class="middle" href="./team.html">TEAM</a></li>
+						<li class="nav-item"><a class="middle" href="#">EVENT</a></li>
+						<li class="nav-item"><a class="middle" href="#">CONTACT</a></li>
+						<li class="nav-item"><a class="middle" href="#">NEWSLETTER</a></li>
 
 					</ul>
+				</div>
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<div id="extra-div">
+					<span></span>
 				</div>
 			</header>
 
@@ -47,14 +56,15 @@
 					<div class="img1"></div>
 				</center>
 				<div class="contents">
-				<h4>ANIKET AGARWAL</h4>
-				<p>CHAIRPERSON</p>
+					<h4>ANIKET AGARWAL</h4>
+					<p>CHAIRPERSON</p>
 
-				<div class="inter">
-					<p>"The task of a leader is to get their people from where they are to where they have not been."</p>
+					<div class="inter">
+						<p>"The task of a leader is to get their people from where they are to where they have not
+							been."</p>
+					</div>
 				</div>
-				</div>
-				
+
 			</div>
 			<div class="container-1">
 				<div class="item" id="item-1">
@@ -104,7 +114,7 @@
 						<div class="img7"></div>
 					</center>
 					<h4>ABHIMANYU ATRI</h4>
-					<p id="sp1">DOCUMENTATION CHAIR</p>
+					<p id="sp1">DOCUMENTATION <br>CHAIR</p>
 				</div>
 				<div class="item" id="item-3">
 					<center>
@@ -141,7 +151,7 @@
 					<center>
 						<div class="img12"></div>
 					</center>
-					<h4 id="sp2">HIMANSHU  CHAUHAN</h4>
+					<h4 id="sp2">HIMANSHU CHAUHAN</h4>
 					<p>CREATIVITY CHAIR</p>
 				</div>
 				<div class="item" id="item-4">
@@ -160,6 +170,24 @@
 	<script type="text/javascript" src="./js/cursor.js"></script>
 	<script type="text/javascript" src="./js/teamAninmate.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- <script>
+		const hamburger = document.querySelector(".hamburger");
+		const navMenu = document.querySelector(".nav-menu");
+
+		hamburger.addEventListener("click", mobileMenu);
+
+		function mobileMenu() {
+			hamburger.classList.toggle("active");
+			navMenu.classList.toggle("active");
+		}
+		const middle = document.querySelectorAll(".middle");
+		middle.forEach(n => n.addEventListener("click", closeMenu));
+
+		function closeMenu() {
+			hamburger.classList.remove("active");
+			navMenu.classList.remove("active");
+		}
+	</script> -->
 
 </body>
 

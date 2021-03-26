@@ -423,6 +423,10 @@ header .nav ul li a.middle:before {
   margin-left: -1.5%;
 }
 
+.borders a {
+  display: inline-block;
+  align-items: center;
+}
 /* @media (max-width: 1600px) {
   .logo img {
     height: 80px;

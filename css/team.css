@@ -148,8 +148,17 @@ header .nav ul li a.middle:before {
   height: 220px;
 }
 
-.containers p:hover {
-  visibility: hidden;
+.containers:hover h4,
+.containers:hover p{
+  opacity: 0;
+}
+
+.containers:hover blockquote {
+  opacity: 1;
+}
+
+.containers:hover .border {
+  opacity: 1;
 }
 
 .img1 {
@@ -212,18 +221,23 @@ header .nav ul li a.middle:before {
   height: 220px;
 }
 
-.img2,
-.img3,
-.img4,
-.img5,
-.img6,
-.img7,
-.img8,
-.img9,
-.img10,
-.img11,
-.img12,
-.img13 {
+.item:hover h4,
+.item:hover p{
+  opacity: 0;
+}
+
+.item:hover blockquote {
+  opacity: 1;
+}
+
+.item:hover .borders {
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+.img2,.img3,.img4,.img5,
+.img6,.img7,.img8,.img9,
+.img10,.img11,.img12,.img13 {
   height: 190px;
   width: 190px;
   background-color: rgb(38, 38, 56);
@@ -282,6 +296,11 @@ header .nav ul li a.middle:before {
   top: -50%;
   margin-left: 5px;
   font-size: 17px;
+}
+
+.item .contents1 h4{
+  position: absolute;
+  top: 46%;
 }
 
 .item p {
@@ -365,8 +384,43 @@ header .nav ul li a.middle:before {
   transition: 0.15s;
 }
 
-.containers .inter {
-  display: none;
+.containers blockquote {
+  color: white;
+  top: 50%;
+  display: block;
+  position: absolute;
+  opacity: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.item blockquote {
+  color: white;
+  top: 50%;
+  display: block;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+}
+
+.border {
+  height: 20px;
+  width: 100%;
+  background-color: #fff;
+  top: 100%;
+  position: relative;
+  opacity: 0;
+}
+
+.borders {
+  height: 20px;
+  width: 14%;
+  top: 85%;
+  background-color: #fff;
+  position: absolute;
+  opacity: 1;
+  opacity: 0;
 }
 
 /* @media (max-width: 1600px) {
@@ -760,7 +814,7 @@ header .nav ul li a.middle:before {
   .item #op2 {
     font-size: 12px;
     /* top: 49%; */
-    position: relative;
+    /*position: relative;
     top: -35px;
     margin-bottom: 20px;
   }
@@ -860,12 +914,11 @@ header .nav ul li a.middle:before {
   }
   .item #op2 {
     font-size: 12px;
-    /* top: 49%; */
     position: relative;
     top: -35px;
     margin-bottom: 20px;
-  }
-  .container-1 {
+  }*/
+/*  .container-1 {
     position: absolute;
     margin-top: 450px;
     height: 300px;
@@ -893,4 +946,5 @@ header .nav ul li a.middle:before {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-} */
+}
+*/

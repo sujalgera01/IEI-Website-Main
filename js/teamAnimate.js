@@ -1,9 +1,9 @@
-$(document).ready(function () {
+$(document).ready(function(){
 	$('.contents').hover(
-		function () {
+		function(){
 			$('.inter').fadeIn();
 		},
-		function () {
+		function(){
 			$('.inter').fadeOut();
 		},
 	);

@@ -415,12 +415,12 @@ header .nav ul li a.middle:before {
 
 .borders {
   height: 20px;
-  width: 14%;
-  top: 85%;
+  width: 103%;
+  top: 15%;
   background-color: #fff;
-  position: absolute;
-  opacity: 1;
+  position: relative;
   opacity: 0;
+  margin-left: -1.5%;
 }
 
 /* @media (max-width: 1600px) {

@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+#extra-div {
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 5px auto;
+  --webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+.logo img {
+  height: 90px;
+  width: 90px;
+  margin-left: 23px;
+  margin-top: 20px;
+}
+
+figcaption {
+  color: #fff;
+  padding-left: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav ul {
+  /*position: fixed;*/
+  top: 0;
+  right: 0;
+  width: 65%;
+  display: flex;
+  text-align: left;
+  padding-top: 50px;
+  height: 100%;
+}
+
+.nav ul li a {
+  color: #93abe3;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 0px 60px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.nav ul li {
+  position: relative;
+  animation: 2s autoplay ease-out;
+}
+
+.nav ul li a .middle {
+  position: relative;
+}
+
+header .nav ul li a.middle:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 100px;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul li a.middle:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+body {
+  background-image: url("../images/devbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500vh;
+}
+
+h3 {
+  margin-top: 5%;
+}
+
+#heading1 {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+
+#s1 {
+  font-size: 70px;
+  background-color: #fff;
+  color: #000;
+  padding: 7px 10px;
+}
+
+.fbox {
+  display: flex;
+  margin-top: 5%;
+}
+
+.fbox p {
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  margin: 5%;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+.fbox img {
+  height: 300px;
+  width: 350px;
+  margin: 3% 10%;
+}
+
+hr {
+  width: 30%;
+  margin: 3% 35%;
+}

@@ -327,6 +327,9 @@ header .nav ul li a.middle:before {
   letter-spacing: 1px;
 }
 
+.container-3 #item-3 p {
+  top: 60%;
+}
 .item #op1 {
   top: 61%;
   color: #00c1df;
@@ -445,7 +448,7 @@ header .nav ul li a.middle:before {
   }
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1541px) {
   .logo img {
     height: 70px;
     width: 70px;
@@ -462,7 +465,7 @@ header .nav ul li a.middle:before {
     font-size: 40px;
     margin-top: 100px;
   }
-  .img1,
+  /* .img1,
   .img2,
   .img3,
   .img4,
@@ -548,7 +551,7 @@ header .nav ul li a.middle:before {
     font-size: 10px;
     top: 60%;
     margin-left: 5%;
-  }
+  } */
   header .nav ul li a.middle:before {
     content: "";
     position: absolute;
@@ -566,9 +569,9 @@ header .nav ul li a.middle:before {
     transform: scaleX(1);
   }
 
-  .container-1 {
+  /* .container-1 {
     margin-top: 650px;
-  }
+  } */
 }
 
 @media (max-width: 1200px) {
@@ -685,6 +688,10 @@ header .nav ul li a.middle:before {
     flex-direction: column;
   }
 
+  .container-3 #item-3 p {
+    top: 50%;
+  }
+
   .item h4 {
     font-size: 11px;
     font-weight: 800;
@@ -733,6 +740,9 @@ header .nav ul li a.middle:before {
   .nav ul li a.middle:hover:before {
     visibility: visible;
     transform: scaleX(1);
+  }
+  .containers {
+    top: 80%;
   }
 }
 
@@ -848,17 +858,20 @@ header .nav ul li a.middle:before {
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
   }
+  .containers {
+    top: 95%;
+  }
   .container-1 {
     position: absolute;
-    top: 50%;
+    top: 30%;
   }
   .container-2 {
     position: absolute;
-    top: 60%;
+    top: 40%;
   }
   .container-3 {
     position: absolute;
-    top: 80%;
+    top: 70%;
   }
   .item {
     margin-bottom: 100px;
@@ -984,6 +997,9 @@ header .nav ul li a.middle:before {
   #item-4 .contents1 h4 {
     top: 95%;
   }
+  .container-3 #item-3 p {
+    top: 95%;
+  }
 }
 
 @media (max-width: 370px) {
@@ -1027,5 +1043,8 @@ header .nav ul li a.middle:before {
   }
   .container-1 #item-3 p {
     margin-left: 5px;
+  }
+  .container-3 #item-3 p {
+    top: 95%;
   }
 }

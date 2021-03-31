@@ -1,87 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>IE(I)-Website</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <!-- Inner Links -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/navbarstyle.css" />
 
-<head>
-	<title>IE(I)-Website</title>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<meta charset="utf-8">
-	<!-- Inner Links -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/navbarstyle.css">
+    <!-- Font Links -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
 
-	<!-- Font Links -->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- Links End -->
+  </head>
 
-	<!-- Links End -->
+  <body>
+    <div class="container">
+      <!-- Navbar Section -->
 
-
-</head>
-
-<body>
-	<div class="container">
-		<!-- Navbar Section -->
-
-		<header class="head">
-			<!--head id-->
-			<div class="logo">
-				<img src="images/logo.svg">
-				<figcaption>IE(I)-VIT</figcaption>
-			</div>
-			<a href="#" class="toggle-btn">
+      <header class="head">
+        <!--head id-->
+        <div class="logo">
+          <img src="images/logo.svg" />
+          <figcaption>IE(I)-VIT</figcaption>
+        </div>
+        <!-- <a href="#" class="toggle-btn">
 				<span class="bar"></span>
 				<span class="bar"></span>
 				<span class="bar"></span>
-			</a>
-			<div class="nav">
-				<ul>
-					<li><a href="#">HOME</a></li>
-					<li><a href="./about.html">ABOUT</a></li>
-					<li><a href="#">TEAM</a></li>
-					<li><a href="#">EVENT</a></li>
-					<li><a href="#">CONTACT</a></li>
-					<li><a href="#">NEWSLETTER</a></li>
-				</ul>
-			</div>
-		</header>
+			</a> -->
+        <div class="nav">
+          <ul class="nav-menu">
+            <li class="nav-item"><a class="middle" href="#">HOME</a></li>
+            <li class="nav-item">
+              <a class="middle" href="./about.html">ABOUT</a>
+            </li>
+            <li class="nav-item"><a class="middle" href="#">TEAM</a></li>
+            <li class="nav-item"><a class="middle" href="#">EVENT</a></li>
+            <li class="nav-item"><a class="middle" href="#">CONTACT</a></li>
+            <li class="nav-item"><a class="middle" href="#">NEWSLETTER</a></li>
+          </ul>
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </header>
 
-		<!-- Navbar Ends -->
+      <!-- Navbar Ends -->
 
-		<!-- Chapter Name Section -->
-		<div class="mid-content">
-			<div class="single-line">
-				<p id="p1">Institution Of Engineers</p>
-				<div class="d1" id="a"></div>
-				<div class="d1" id="b"></div>
-				<div class="d1" id="c"></div>
-			</div>
-			<p class="h2">VIT Student Chapter</p>
-		</div>
+      <!-- Chapter Name Section -->
+      <div class="mid-content">
+        <div class="single-line">
+          <p id="p1">Institution Of Engineers</p>
+          <div class="d1" id="a"></div>
+          <div class="d1" id="b"></div>
+          <div class="d1" id="c"></div>
+        </div>
+        <p class="h2">VIT Student Chapter</p>
+      </div>
 
-		<!-- Chapter Section Ends -->
+      <!-- Chapter Section Ends -->
 
-		<!-- Content Section -->
-		<div class="mid-content1">
-			<p id="small-text">Here</p>
-			<div class="mid-content1-large">
-				<p class="par1">Engineering</p>
-				<div class="mid-content1-small">
-					<p>meets</p>
-					<hr>
-				</div>
-				<p class="par1 par11">Innovation</p>
-			</div>
-		</div>
+      <!-- Content Section -->
+      <div class="mid-content1">
+        <p id="small-text">Here</p>
+        <div class="mid-content1-large">
+          <p class="par1">Engineering</p>
+          <div class="mid-content1-small">
+            <p>meets</p>
+            <hr />
+          </div>
+          <p class="par1 par11">Innovation</p>
+        </div>
+      </div>
 
-		<div class="first-bottom">
-			<p id="p2">SCROLL FOR MORE</p>
-			<img id="scroll" src="images/scroll.svg">
-		</div>
+      <div class="first-bottom">
+        <p id="p2">SCROLL FOR MORE</p>
+        <img id="scroll" src="images/scroll.svg" />
+      </div>
 
-		<!-- Content Section Ends -->
+      <!-- Content Section Ends -->
+    </div>
+    <script src="/js/style.js"></script>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".nav-menu");
 
-	</div>
-	<script src="/js/style.js"></script>
-</body>
+      hamburger.addEventListener("click", mobileMenu);
 
+      function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      }
+      const middle = document.querySelectorAll(".middle");
+      middle.forEach((n) => n.addEventListener("click", closeMenu));
+
+      function closeMenu() {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+      }
+    </script>
+  </body>
 </html>

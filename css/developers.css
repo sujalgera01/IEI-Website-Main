@@ -227,6 +227,32 @@ hr {
   visibility: hidden;
 }
 
+.cursor {
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #c6c6c6;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: 0.1s;
+}
+
+.cursor2 {
+  position: fixed;
+  height: 8px;
+  width: 8px;
+  background-color: #c6c6c6;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: 0.15s;
+}
+
 @media screen and (max-width: 1324px) {
   .logo img {
     height: 70px;
@@ -444,6 +470,80 @@ hr {
     font-size: 1rem;
   }
   .fbox p {
+    font-size: 0.8rem;
+  }
+
+  .fbox img {
+    height: 170px;
+    width: 200px;
+  }
+  .card {
+    height: 240px;
+    width: 190px;
+  }
+
+  .card-image {
+    height: 90px;
+    width: 190px;
+  }
+
+  .photo img {
+    height: 110px;
+    width: 110px;
+    top: 15%;
+    left: 20%;
+  }
+
+  .card-content {
+    position: absolute;
+    top: 70%;
+  }
+
+  .card-content h5 {
+    font-size: 0.9rem;
+  }
+
+  .card-content p {
+    font-size: 0.5rem;
+  }
+  fbox p {
+    font-size: 0.8rem;
+  }
+
+  .fbox img {
+    height: 170px;
+    width: 200px;
+  }
+  .card {
+    height: 240px;
+    width: 190px;
+  }
+
+  .card-image {
+    height: 90px;
+    width: 190px;
+  }
+
+  .photo img {
+    height: 110px;
+    width: 110px;
+    top: 15%;
+    left: 20%;
+  }
+
+  .card-content {
+    position: absolute;
+    top: 70%;
+  }
+
+  .card-content h5 {
+    font-size: 0.9rem;
+  }
+
+  .card-content p {
+    font-size: 0.5rem;
+  }
+  ox p {
     font-size: 0.8rem;
   }
 

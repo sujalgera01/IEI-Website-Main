@@ -103,7 +103,7 @@ body {
   background-image: url("../images/devbg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 500vh;
+  min-height: 350vh;
 }
 
 h3 {
@@ -149,4 +149,67 @@ h3 {
 hr {
   width: 30%;
   margin: 3% 35%;
+}
+
+.fx {
+  display: flex;
+}
+
+.card {
+  position: relative;
+  height: 300px;
+  width: 250px;
+  background-color: #fff;
+  margin: 6% 8%;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+.card-image {
+  background-image: url("../images/devcardbg.png");
+  height: 100px;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo img{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+.card-content {
+  position: absolute;
+  top: 70%;
+}
+
+.card-content h5 {
+  color: #0B0626;
+  font-size: 23px;
+  padding-left: 10px;
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+} 
+
+.card-content p {
+  padding: 5px;
+  color: #fff;
+  background: #000;
+  border-radius: 30px;
+  font-size: 15px;
+  width: 60%;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+#update {
+  width: 90%;
+}
+
+.card-disable {
+  visibility: hidden;
+  
 }

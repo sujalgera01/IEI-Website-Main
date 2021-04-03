@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
+  user-select: none;
 }
 
 body {
@@ -239,4 +240,30 @@ hr {
   #p2 {
     font-size: 0.8rem;
   }
+}
+
+.cursor {
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #c6c6c6;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: 0.1s;
+}
+
+.cursor2 {
+  position: fixed;
+  height: 8px;
+  width: 8px;
+  background-color: #c6c6c6;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: 0.15s;
 }

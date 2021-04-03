@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
+  user-select: none;
 }
 
 body {
@@ -51,7 +52,6 @@ ul {
 }
 
 .nav ul {
-  /*position: fixed;*/
   top: 0;
   right: 0;
   width: 65%;
@@ -63,6 +63,7 @@ ul {
 
 .nav ul li a {
   color: #93abe3;
+  font-weight: lighter;
   text-decoration: none;
   display: block;
   width: 100%;
@@ -78,6 +79,10 @@ ul {
 
 .nav ul li a .middle {
   position: relative;
+}
+
+.nav ul li a:link {
+  font-weight: bolder;
 }
 
 header .nav ul li a.middle:before {

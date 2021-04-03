@@ -2,14 +2,23 @@
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
-  user-select: none;
 }
-
+html {
+  font-size: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 body {
   overflow-x: hidden;
   overflow-y: scroll;
   margin: 0px;
   padding: 0px;
+}
+.full-container {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -20,6 +29,7 @@ header {
   display: inline;
   padding: 0px;
   margin: 0px;
+  width: 0%;
 }
 
 .hamburger {
@@ -114,7 +124,7 @@ h3 {
   color: #fff;
   font-size: 40px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 5px;
   word-spacing: 10px;
 }
@@ -129,12 +139,14 @@ h3 {
 .fbox {
   display: flex;
   margin-top: 5%;
+  justify-content: center;
+  align-items: center;
 }
 
 .fbox p {
   color: #fff;
   font-size: 25px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 5%;
   letter-spacing: 2px;
   word-spacing: 3px;
@@ -153,6 +165,8 @@ hr {
 
 .fx {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -173,7 +187,7 @@ hr {
   background-size: cover;
 }
 
-.photo img{
+.photo img {
   height: 150px;
   width: 150px;
   position: absolute;
@@ -187,12 +201,12 @@ hr {
 }
 
 .card-content h5 {
-  color: #0B0626;
+  color: #0b0626;
   font-size: 23px;
   padding-left: 10px;
   font-weight: lighter;
   font-family: "Raleway", sans-serif;
-} 
+}
 
 .card-content p {
   padding: 5px;
@@ -211,7 +225,6 @@ hr {
 
 .card-disable {
   visibility: hidden;
-  
 }
 
 .cursor {
@@ -238,4 +251,333 @@ hr {
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition: 0.15s;
+}
+
+@media screen and (max-width: 1324px) {
+  .logo img {
+    height: 70px;
+    width: 70px;
+  }
+
+  figcaption {
+    padding-left: 30px;
+    font-size: 0.9rem;
+  }
+  header .nav ul li a.middle:before {
+    top: 30%;
+  }
+  .nav ul li a {
+    padding: 0px 50px;
+    font-size: 0.8rem;
+  }
+  #heading1 {
+    font-size: 1.5rem;
+  }
+  #s1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .fbox p {
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+
+  .fbox img {
+    height: 260px;
+    width: 290px;
+  }
+  .card {
+    height: 250px;
+    width: 200px;
+  }
+
+  .card-image {
+    height: 90px;
+    width: 200px;
+  }
+
+  .photo img {
+    height: 120px;
+    width: 120px;
+    top: 10%;
+    left: 20%;
+  }
+
+  .card-content {
+    position: absolute;
+    top: 70%;
+  }
+
+  .card-content h5 {
+    font-size: 0.9rem;
+  }
+
+  .card-content p {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .logo img {
+    height: 60px;
+    width: 60px;
+  }
+
+  figcaption {
+    padding-left: 30px;
+    font-size: 0.7rem;
+  }
+  .nav ul li a {
+    padding: 0px 30px;
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+  #heading1 {
+    font-size: 1rem;
+  }
+  #s1 {
+    font-size: 2rem;
+  }
+  .fbox p {
+    font-size: 1rem;
+  }
+
+  .fbox img {
+    height: 240px;
+    width: 270px;
+  }
+  .card {
+    height: 240px;
+    width: 190px;
+  }
+
+  .card-image {
+    height: 90px;
+    width: 190px;
+  }
+
+  .photo img {
+    height: 110px;
+    width: 110px;
+    top: 15%;
+    left: 20%;
+  }
+
+  .card-content {
+    position: absolute;
+    top: 70%;
+  }
+
+  .card-content h5 {
+    font-size: 0.9rem;
+  }
+
+  .card-content p {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    z-index: 10;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+  .nav-item {
+    /* margin: 2.5rem 0; */
+    margin: 1.5rem 0;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-right: 20px;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  header .nav ul li a.middle:before {
+    top: 100%;
+  }
+  .nav ul li a {
+    font-size: 1rem;
+  }
+  .fbox {
+    flex-direction: column;
+  }
+  .fx {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    height: 320px;
+    width: 270px;
+  }
+
+  .card-image {
+    height: 120px;
+    width: 270px;
+  }
+
+  .photo img {
+    height: 160px;
+    width: 160px;
+  }
+
+  .card-content {
+    position: absolute;
+    top: 70%;
+  }
+
+  .card-content h5 {
+    font-size: 1.2rem;
+  }
+
+  .card-content p {
+    padding: 5px;
+    font-size: 0.8rem;
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  #heading1 {
+    margin-top: 5%;
+    font-size: 0.8rem;
+  }
+  #s1 {
+    font-size: 1rem;
+  }
+  .fbox p {
+    font-size: 0.8rem;
+  }
+
+  .fbox img {
+    height: 170px;
+    width: 200px;
+  }
+  .card {
+    height: 240px;
+    width: 190px;
+  }
+
+  .card-image {
+    height: 90px;
+    width: 190px;
+  }
+
+  .photo img {
+    height: 110px;
+    width: 110px;
+    top: 15%;
+    left: 20%;
+  }
+
+  .card-content {
+    position: absolute;
+    top: 70%;
+  }
+
+  .card-content h5 {
+    font-size: 0.9rem;
+  }
+
+  .card-content p {
+    font-size: 0.5rem;
+  }
+  fbox p {
+    font-size: 0.8rem;
+  }
+
+  .fbox img {
+    height: 170px;
+    width: 200px;
+  }
+  .card {
+    height: 240px;
+    width: 190px;
+  }
+
+  .card-image {
+    height: 90px;
+    width: 190px;
+  }
+
+  .photo img {
+    height: 110px;
+    width: 110px;
+    top: 15%;
+    left: 20%;
+  }
+
+  .card-content {
+    position: absolute;
+    top: 70%;
+  }
+
+  .card-content h5 {
+    font-size: 0.9rem;
+  }
+
+  .card-content p {
+    font-size: 0.5rem;
+  }
+  ox p {
+    font-size: 0.8rem;
+  }
+
+  .fbox img {
+    height: 170px;
+    width: 200px;
+  }
+  .card {
+    height: 240px;
+    width: 190px;
+  }
+
+  .card-image {
+    height: 90px;
+    width: 190px;
+  }
+
+  .photo img {
+    height: 110px;
+    width: 110px;
+    top: 15%;
+    left: 20%;
+  }
+
+  .card-content {
+    position: absolute;
+    top: 70%;
+  }
+
+  .card-content h5 {
+    font-size: 0.9rem;
+  }
+
+  .card-content p {
+    font-size: 0.5rem;
+  }
 }

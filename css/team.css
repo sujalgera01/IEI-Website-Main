@@ -150,18 +150,29 @@ header .nav ul li a.middle:before {
   transform: translate(-50%, -50%);
   transition: 0.5s ease-in-out;
 }
-
+.containers blockquote {
+  text-align: center;
+}
 .containers:hover {
   height: 220px;
+  /* height: 220px;
+  width: 220px; */
 }
 
 .containers:hover h4,
 .containers:hover p {
   opacity: 0;
 }
-
+.centerfc:hover h4,
+.centerfc:hover p {
+  opacity: 0;
+}
+/* .centerfc:hover blockquote{
+  font-size: 11px;
+} */
 .containers:hover blockquote {
   opacity: 1;
+  text-align: center;
 }
 
 .containers:hover .border {
@@ -235,6 +246,7 @@ header .nav ul li a.middle:before {
 
 .item:hover blockquote {
   opacity: 1;
+  text-align: center;
 }
 
 .item:hover .borders {
@@ -442,10 +454,17 @@ header .nav ul li a.middle:before {
   margin-left: -1.5%;
 }
 
-.borders a {
-  display: inline-block;
-  align-items: center;
+.let a ion-icon {
+  position: absolute;
+  /* top: 50%; */
+  transform: translate(640%, 9%);
 }
+.let1 a ion-icon {
+  position: absolute;
+  /* top: 50%; */
+  transform: translate(440%, 9%);
+}
+
 @media (max-width: 1600px) {
   .logo img {
     height: 80px;

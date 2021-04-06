@@ -581,3 +581,12 @@ hr {
     font-size: 0.5rem;
   }
 }
+
+@media (max-width: 526px){
+  .cursor {
+    visibility: hidden;
+  }
+  .cursor2{
+    visibility: hidden;
+  }
+}

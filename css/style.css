@@ -223,6 +223,12 @@ hr {
   #p2 {
     font-size: 0.8rem;
   }
+  .cursor {
+    visibility: hidden;
+  }
+  .cursor2{
+    visibility: hidden;
+  }
 }
 
 .cursor {

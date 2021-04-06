@@ -1003,6 +1003,12 @@ header .nav ul li a.middle:before {
     top: 115%;
     left: 20%;
   }
+  .cursor {
+    visibility: hidden;
+  }
+  .cursor2{
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 470px) {

@@ -462,6 +462,12 @@ hr {
     font-size: 25px;
     padding-top: 25px;
   }
+  .cursor {
+    visibility: hidden;
+  }
+  .cursor2{
+    visibility: hidden;
+  }
 }
 
 .cursor {

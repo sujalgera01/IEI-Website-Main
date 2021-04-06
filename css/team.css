@@ -240,7 +240,7 @@ header .nav ul li a.middle:before {
 }
 
 .item:hover h4,
-.item:hover p , {
+.item:hover p {
   opacity: 0;
 }
 

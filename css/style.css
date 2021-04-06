@@ -109,23 +109,6 @@ hr {
   margin: 0 5px 0 0;
 }
 
-#a {
-  height: 35px;
-  width: 8.92px;
-  background-color: #ec411b;
-}
-
-#b {
-  height: 35px;
-  width: 8.92px;
-  background-color: #fff;
-}
-
-#c {
-  height: 35px;
-  width: 8.92px;
-  background-color: #248332;
-}
 
 .first-bottom {
   display: flex; /* flex, flex-direction, justify content and align items*/

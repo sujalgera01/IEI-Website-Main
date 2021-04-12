@@ -109,29 +109,6 @@ hr {
   margin: 0 5px 0 0;
 }
 
-
-.first-bottom {
-  display: flex; /* flex, flex-direction, justify content and align items*/
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 3%;
-  left: 45%;
-  animation: autoplaytwo 1s 1;
-}
-
-#p2 {
-  color: #fff;
-  padding-bottom: 10px;
-}
-
-#scroll {
-  height: 30px;
-  width: 30px;
-  margin: 0 40%;
-}
-
 @keyframes autoplay {
   0% {
     top: -100%;

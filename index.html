@@ -36,9 +36,9 @@
             <li class="nav-item"><a class="middle" href="./index.html">HOME</a></li>
             <li class="nav-item"><a class="middle" href="./about.html">ABOUT</a></li>
             <li class="nav-item"><a class="middle" href="./team.html">TEAM</a></li>
-            <li class="nav-item"><a class="middle" href="#">EVENT</a></li>
             <li class="nav-item"><a class="middle" href="#">CONTACT</a></li>
             <li class="nav-item"><a class="middle" href="#">NEWSLETTER</a></li>
+            <li class="nav-item"><a class="middle" href="./developers.html">DEVELOPERS</a></li>
           </ul>
         </div>
         
@@ -73,8 +73,10 @@
           <p class="par1 par11">Innovation</p>
         </div>
       </div>
+      <!-- Content Section Ends -->
+    </div>
 
-      <section class="events">
+    <!-- <section class="events">
         <div id="h1">
           <h3>EVENTS</h3>
           <hr>
@@ -91,10 +93,10 @@
               <img src="./images/event1.png">
             </div>
             <div class="slide">
-              <img src="./images/event1.png">
+              <img src="./images/event2.png">
             </div>
             <div class="slide">
-              <img src="./images/event1.png">
+              <img src="./images/event3.png">
             </div>
 
             <div class="navigation-auto">
@@ -111,10 +113,7 @@
             </div>
           </div>
         </div>
-      </section>
-
-      <!-- Content Section Ends -->
-    </div>
+      </section> -->
 
     <div class="cursor"></div>
   <div class="cursor2"></div>
@@ -137,6 +136,15 @@
         hamburger.classList.remove("active");
         navMenu.classList.remove("active");
       }
+
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter>4){
+          counter = 1;
+        }
+      }, 4000);
     </script>
   </body>
 </html>

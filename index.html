@@ -11,10 +11,9 @@
 
     <!-- Font Links -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 
     <!-- Links End -->
   </head>
@@ -74,50 +73,65 @@
         </div>
       </div>
       <!-- Content Section Ends -->
+
+<!-- Event Section Starts -->
+      <section class="glry">
+      <h1 class="gallery">EVENTS</h1>
+      <hr id="g1">
+    <div class="main-carousel" data-flickity='{"wrapAround" : true}'>
+      <div class="carousel-cell">
+        <img src="./images/event1.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./images/event2.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./images/event3.png">
+      </div>
+  </div>
+  </section>
+
+  <!-- Events Section Ends -->
+
+  <!-- Image Gallery Starts -->
+
+  <section class="glry glry2">
+      <h1 class="gallery">Gallary</h1>
+      <hr id="g1">
+    <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false, "prevNextButtons": false, "wrapAround": true, "freeScroll": true}'>
+  <img src="./images/gal1.png" />
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" alt="submerged" />
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" alt="look-out" />
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="One World Trade" />
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" alt="drizzle" />
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" alt="cat nose" />
+</div>
+
+  </section>
+
+  <!-- Image Gallery Ends -->
+
     </div>
 
-    <!-- <section class="events">
-        <div id="h1">
-          <h3>EVENTS</h3>
-          <hr>
+
+   <!--  <div class="wrapper">
+      <div class="card">
+        <img src="./images/">
+        <div class="info">
+          <h1>heading</h1>
+          <p></p>
+          <a href="#" class="btn">Read More</a>
         </div>
+      </div>
+    </div>
+ -->
 
-        <div class="slider">
-          <div class="slides">
-            
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
 
-            <div class="slide first">
-              <img src="./images/event1.png">
-            </div>
-            <div class="slide">
-              <img src="./images/event2.png">
-            </div>
-            <div class="slide">
-              <img src="./images/event3.png">
-            </div>
-
-            <div class="navigation-auto">
-              <div class="auto-btn1"></div>
-              <div class="auto-btn2"></div>
-              <div class="auto-btn3"></div>
-            </div>
-
-            <div class="navigation-manual">
-              <label for="radio1" class="manual-btn"> </label>
-              <label for="radio2" class="manual-btn"> </label>
-              <label for="radio3" class="manual-btn"> </label>
-
-            </div>
-          </div>
-        </div>
-      </section> -->
 
     <div class="cursor"></div>
-  <div class="cursor2"></div>
-  <script type="text/javascript" src="./js/cursor.js"></script>
+    <div class="cursor2"></div>
+    <script type="text/javascript" src="./js/cursor.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="/js/style.js"></script>
     <script>
       const hamburger = document.querySelector(".hamburger");

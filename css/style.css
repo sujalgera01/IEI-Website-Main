@@ -14,7 +14,7 @@ body {
   background-image: url("../images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: 500vh;
   /*overflow-y: hidden;*/
 }
 
@@ -112,106 +112,72 @@ hr {
 .events {
   position: relative;
 }
-/*
-.slider {
-  width: 800px;
-  height: 500px;
-  border-radius: 10px;
-  overflow: hidden;
+
+.glry {
+  position: relative;
+  margin-top: 40%;
 }
 
-.slides {
-  width: 500%;
-  height: 500px;
-  display: flex;
+.glry2 {
+  margin-top: 15%;
 }
 
-.slides input {
-  display: none;
-}
-
-.slide {
+#g1 {
   width: 20%;
-  transition: 2s;
+  line-height: 10px;
+  margin-left: 40%;
+  margin-bottom: 4%;
+  margin-top: -3px;
+  color: #14D2CD;
+  background-color: #14D2CD;
+  height:5px;
 }
 
-.slide img {
-  width: 800px;
+.glry .carousel-cell {
+  width: 66%;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.glry .carousel-cell:before {
+  display: block;
+}
+
+.glry2 .carousel-cell {
+  width: 66%;
+  margin-right: 10px;
+}
+
+.glry .carousel-cell img {
   height: 500px;
+  width: 500px;
+  margin-left: 10%;
 }
 
-.navigation-manual {
-  position: absolute;
-  width: 800px;
-  margin-top: -40px;
-  display: flex;
-  justify-content: center;
+.carousel.is-fullscreen .carousel-cell {
+  height: 100%;
 }
 
-.manual-btn {
-  border: 2px solid #40D3DC;
-  padding: 5px;
-  border-radius: 10px;
-  transition: 1s;
+.gallery {
+  text-align: center;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  padding: 20px; 
 }
 
-.manual-btn:not(:last-child){
-  margin-right: 40px;
+.carousel img {
+  display: block;
+  height: 200px;
 }
 
-.manual-btn:hover {
-  background: #40D3DC;
+@media screen and ( min-width: 768px ) {
+  .carousel img {
+    height: 400px;
+  }
 }
-
-#radio1:checked ~ .first {
-  margin-left: 0;
-}
-
-#radio2:checked ~ .first {
-  margin-left: -20%;
-}
-
-#radio3:checked ~ .first {
-  margin-left: -40%;
-}
-
-.navigation-auto {
-  position: absolute;
-  display: flex;
-  width: 800px;
-  justify-content: center;
-  margin-top: 460px;
-}
-
-.navigation-auto div {
-  border: 2px solid #40D3DC;
-  padding: 5px;
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.navigation-auto:not(:last-child){
-  margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1{
-  background: #40D3DC;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2{
-  background: #40D3DC;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3{
-  background: #40D3DC;
-}
-
-*/
-
-
-
-
-
 
 @keyframes autoplay {
   0% {

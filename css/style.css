@@ -132,12 +132,59 @@ h2{
   right: 36%;
 }
 
-.g3{
+.rope {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+.vertical {
+  position: absolute;
+  top: 110%;
+  height: 150px;
+  width: 2px;
+  color: #fff;
+  background: #fff;
+  left: 140px;
+}
+
+.v1 {
+  top: 113%;
+  left: 300px;
+  height: 120px;
+}
+
+.v2 {
+  top: 115%;
+  left: 600px;
+  height: 100px;
+}
+
+.v3 {
+  top: 116%;
+  left: 750px;
+  height: 120px;
+}
+
+
+.v4 {
+  top: 113%;
+  left: 1050px;
+  height: 120px;
+}
+
+.v5 {
+  top: 110%;
+  left: 1200px;
+  height: 130px;
+}
+
+/*.g3{
   position: absolute;
   top: 115%; 
 }
 
-
+*/
 .card {
   width: 280px;
   height: 360px;

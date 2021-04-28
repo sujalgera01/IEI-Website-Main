@@ -54,7 +54,8 @@ header {
 
 figcaption {
   color: #fff;
-  padding-left: 40px;
+  padding-left: 33px;
+  padding-top: 5px;
 }
 
 ul {
@@ -73,6 +74,7 @@ ul {
 }
 
 .nav ul li a {
+  font-weight: bolder;
   color: #93abe3;
   text-decoration: none;
   display: block;
@@ -579,5 +581,14 @@ hr {
 
   .card-content p {
     font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 526px){
+  .cursor {
+    visibility: hidden;
+  }
+  .cursor2{
+    visibility: hidden;
   }
 }

@@ -11,10 +11,9 @@
 
     <!-- Font Links -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 
     <!-- Links End -->
   </head>
@@ -36,9 +35,9 @@
             <li class="nav-item"><a class="middle" href="./index.html">HOME</a></li>
             <li class="nav-item"><a class="middle" href="./about.html">ABOUT</a></li>
             <li class="nav-item"><a class="middle" href="./team.html">TEAM</a></li>
-            <li class="nav-item"><a class="middle" href="#">EVENT</a></li>
             <li class="nav-item"><a class="middle" href="#">CONTACT</a></li>
             <li class="nav-item"><a class="middle" href="#">NEWSLETTER</a></li>
+            <li class="nav-item"><a class="middle" href="./developers.html">DEVELOPERS</a></li>
           </ul>
         </div>
         
@@ -54,10 +53,7 @@
       <!-- Chapter Name Section -->
       <div class="mid-content">
         <div class="single-line">
-          <p id="p1">Institution Of Engineers</p>
-          <div class="d1" id="a"></div>
-          <div class="d1" id="b"></div>
-          <div class="d1" id="c"></div>
+          <p id="p1">Institution Of Engineers ( INDIA )</p>
         </div>
         <p class="h2">VIT Student Chapter</p>
       </div>
@@ -71,23 +67,108 @@
           <p class="par1">Engineering</p>
           <div class="mid-content1-small">
             <p>meets</p>
-            <hr />
+            <hr/>
           </div>
           <p class="par1 par11">Innovation</p>
         </div>
       </div>
+      <!-- Content Section Ends -->
 
-      <div class="first-bottom">
-        <p id="p2">SCROLL FOR MORE</p>
-        <img id="scroll" src="images/scroll.svg" />
+      <!-- What we do Section Starts -->
+      <h2>WHAT WE DO</h2>
+      <hr class="g2 g3">
+    <div class="wrappers">
+      <div class="card">
+        <img src="./images/design.png">
+        <div class="info">
+          <h1>heading</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
       </div>
 
-      <!-- Content Section Ends -->
+      <div class="card">
+        <img src="./images/design.png">
+        <div class="info">
+          <h1>heading</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/design.png">
+        <div class="info">
+          <h1>heading</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
     </div>
 
+      <!-- What we do Section Ends -->
+
+<!-- Event Section Starts -->
+      <section class="glry">
+      <h1 class="gallery">EVENTS</h1>
+      <hr id="g1">
+    <div class="main-carousel" data-flickity='{"wrapAround" : true}'>
+      <div class="carousel-cell">
+        <img src="./images/event1.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./images/event2.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./images/event3.png">
+      </div>
+  </div>
+  </section>
+
+  <!-- Events Section Ends -->
+
+  <!-- Image Gallery Starts -->
+
+  <section class="glry glry2">
+      <h1 class="gallery">Gallary</h1>
+      <hr id="g1">
+    <div class="carousel" data-flickity='{ "imagesLoaded": true, "percentPosition": false, "prevNextButtons": false, "wrapAround": true, "freeScroll": true}'>
+  <img src="./images/gal1.png" />
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" alt="submerged" />
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" alt="look-out" />
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="One World Trade" />
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" alt="drizzle" />
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" alt="cat nose" />
+</div>
+
+  </section>
+
+  <!-- Image Gallery Ends -->
+
+    </div>
+
+
+   <!--  <div class="wrapper">
+      <div class="card">
+        <img src="./images/">
+        <div class="info">
+          <h1>heading</h1>
+          <p></p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </div>
+ -->
+
+
+
     <div class="cursor"></div>
-  <div class="cursor2"></div>
-  <script type="text/javascript" src="./js/cursor.js"></script>
+    <div class="cursor2"></div>
+    <script type="text/javascript" src="./js/cursor.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="/js/style.js"></script>
     <script>
       const hamburger = document.querySelector(".hamburger");
@@ -106,6 +187,15 @@
         hamburger.classList.remove("active");
         navMenu.classList.remove("active");
       }
+
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter>4){
+          counter = 1;
+        }
+      }, 4000);
     </script>
   </body>
 </html>

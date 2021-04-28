@@ -324,19 +324,21 @@ hr {
     left: -100%;
     top: 5rem;
     flex-direction: column;
-    background-color: #000;
-    width: 100%;
+    background-color: rgb(0, 0, 0);
+    max-width: 65%;
     border-radius: 10px;
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     z-index: 10;
   }
+
   .nav-menu.active {
     left: 0;
   }
   .nav-item {
-    margin: 2.5rem 0;
+    /* margin: 2.5rem 0; */
+    margin: 1.5rem 0;
   }
   .hamburger {
     display: block;
@@ -357,8 +359,8 @@ hr {
     display: none;
   }
   .nav ul li a {
-    font-size: 16px;
-    padding: 0 40px;
+    font-size: 1rem;
+    /* padding: 0 40px; */
   }
   header .nav ul li a.middle:before {
     content: "";
@@ -465,7 +467,7 @@ hr {
   .cursor {
     visibility: hidden;
   }
-  .cursor2{
+  .cursor2 {
     visibility: hidden;
   }
 }

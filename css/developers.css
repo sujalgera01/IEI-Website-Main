@@ -584,11 +584,11 @@ hr {
   }
 }
 
-@media (max-width: 526px){
+@media (max-width: 526px) {
   .cursor {
     visibility: hidden;
   }
-  .cursor2{
+  .cursor2 {
     visibility: hidden;
   }
 }

@@ -1482,7 +1482,7 @@ h2 {
     top: 109%;
     /* left: 140px; */
     left: 40%;
-    height: 150%;
+    height: 160%;
     /* height: 400px; */
   }
 
@@ -1490,7 +1490,7 @@ h2 {
     top: 109%;
     /* left: 260px; */
     left: 60%;
-    height: 150%;
+    height: 160%;
     /* height: 400px; */
   }
 
@@ -1527,9 +1527,9 @@ h2 {
   }
 }
 
-@media (max-width: 375px) and (max-height: 540px) {
+@media (max-width: 375px) and (max-height: 580px) {
   .wrappers {
-    margin-top: 130%;
+    margin-top: 140%;
   }
 }
 

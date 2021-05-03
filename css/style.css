@@ -581,6 +581,53 @@ h2 {
   .glry {
     margin: 80px 0;
   }
+  .vertical {
+    top: 109%;
+    /* left: 120px; */
+    left: 12%;
+    /* height: 200px; */
+    height: 30%;
+  }
+
+  .v1 {
+    top: 110%;
+    /* left: 170px; */
+    left: 22%;
+    /* height: 200px; */
+    height: 30%;
+  }
+
+  .v2 {
+    top: 112%;
+    /* left: 420px; */
+    left: 45%;
+    /* height: 200px; */
+    height: 30%;
+  }
+
+  .v3 {
+    top: 112%;
+    /* left: 470px; */
+    left: 55%;
+    /* height: 200px; */
+    height: 30%;
+  }
+
+  .v4 {
+    top: 110%;
+    /* left: 740px; */
+    left: 79%;
+    /* height: 200px; */
+    height: 30%;
+  }
+
+  .v5 {
+    top: 109%;
+    /* left: 790px; */
+    left: 87%;
+    /* height: 200px; */
+    height: 30%;
+  }
 }
 
 @media (max-width: 875px) {
@@ -636,6 +683,53 @@ h2 {
   .glry {
     margin: 80px 0;
   }
+  .vertical {
+    top: 111%;
+    /* left: 340px; */
+    left: 40%;
+    /* height: 400px; */
+    height: 150%;
+  }
+
+  .v1 {
+    top: 111%;
+    /* left: 500px; */
+    left: 60%;
+    /* height: 400px; */
+    height: 150%;
+  }
+
+  .v2 {
+    top: 150%;
+    /* left: 500px; */
+    left: 60%;
+    /* height: 400px; */
+    height: 50%;
+  }
+
+  .v3 {
+    top: 150%;
+    /* left: 340px; */
+    left: 40%;
+    /* height: 400px; */
+    height: 50%;
+  }
+
+  .v4 {
+    top: 210%;
+    /* left: 500px; */
+    left: 60%;
+    /* height: 400px; */
+    height: 50%;
+  }
+
+  .v5 {
+    top: 210%;
+    /* left: 340px; */
+    left: 40%;
+    /* height: 400px; */
+    height: 50%;
+  }
 }
 
 @media (max-width: 769px) and (max-height: 1025px) {
@@ -665,38 +759,49 @@ h2 {
   }
   .vertical {
     top: 109%;
-    left: 300px;
-    height: 400px;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 400px; */
+    height: 110%;
   }
 
   .v1 {
     top: 109%;
-    left: 450px;
-    height: 400px;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 400px; */
+    height: 110%;
   }
 
   .v2 {
     top: 150%;
-    left: 450px;
-    height: 400px;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 400px; */
+    height: 50%;
   }
 
   .v3 {
     top: 150%;
-    left: 300px;
-    height: 400px;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 400px; */
+    height: 50%;
   }
 
   .v4 {
     top: 190%;
-    left: 450px;
-    height: 200px;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 200px; */
+    height: 20%;
   }
-
   .v5 {
     top: 190%;
-    left: 300px;
-    height: 200px;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 200px; */
+    height: 20%;
   }
 }
 @media (max-width: 751px) {
@@ -723,6 +828,52 @@ h2 {
   }
   .carousel img {
     height: 160px;
+  }
+  .vertical {
+    top: 110%;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 400px; */
+    height: 150%;
+  }
+
+  .v1 {
+    top: 110%;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 400px; */
+    height: 150%;
+  }
+
+  .v2 {
+    top: 150%;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 400px; */
+    height: 50%;
+  }
+
+  .v3 {
+    top: 150%;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 400px; */
+    height: 50%;
+  }
+
+  .v4 {
+    top: 220%;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 200px; */
+    height: 50%;
+  }
+  .v5 {
+    top: 220%;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 200px; */
+    height: 50%;
   }
 }
 
@@ -752,6 +903,52 @@ h2 {
   }
   .wrappers {
     margin-top: 110%;
+  }
+  .vertical {
+    top: 110%;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 400px; */
+    height: 150%;
+  }
+
+  .v1 {
+    top: 110%;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 400px; */
+    height: 150%;
+  }
+
+  .v2 {
+    top: 150%;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 400px; */
+    height: 50%;
+  }
+
+  .v3 {
+    top: 150%;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 400px; */
+    height: 50%;
+  }
+
+  .v4 {
+    top: 220%;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 200px; */
+    height: 50%;
+  }
+  .v5 {
+    top: 220%;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 200px; */
+    height: 50%;
   }
 }
 
@@ -795,6 +992,52 @@ h2 {
   .cursor2 {
     visibility: hidden;
   }
+  .vertical {
+    top: 108%;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 400px; */
+    height: 130%;
+  }
+
+  .v1 {
+    top: 108%;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 400px; */
+    height: 130%;
+  }
+
+  .v2 {
+    top: 150%;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 400px; */
+    height: 50%;
+  }
+
+  .v3 {
+    top: 150%;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 400px; */
+    height: 50%;
+  }
+
+  .v4 {
+    top: 220%;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 200px; */
+    height: 20%;
+  }
+  .v5 {
+    top: 220%;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 200px; */
+    height: 20%;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -824,6 +1067,55 @@ h2 {
   }
   h2 {
     font-size: 1.2rem;
+  }
+  .wrappers {
+    margin-top: 140%;
+  }
+  .vertical {
+    top: 107%;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 400px; */
+    height: 110%;
+  }
+
+  .v1 {
+    top: 107%;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 400px; */
+    height: 110%;
+  }
+
+  .v2 {
+    top: 150%;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 400px; */
+    height: 50%;
+  }
+
+  .v3 {
+    top: 150%;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 400px; */
+    height: 50%;
+  }
+
+  .v4 {
+    top: 220%;
+    /* left: 450px; */
+    left: 60%;
+    /* height: 200px; */
+    height: 20%;
+  }
+  .v5 {
+    top: 220%;
+    /* left: 300px; */
+    left: 40%;
+    /* height: 200px; */
+    height: 20%;
   }
 }
 
@@ -869,38 +1161,50 @@ h2 {
   }
   .vertical {
     top: 109%;
-    left: 140px;
-    height: 400px;
+    /* left: 140px; */
+    left: 40%;
+    height: 110%;
+    /* height: 400px; */
   }
 
   .v1 {
     top: 109%;
-    left: 260px;
-    height: 400px;
+    /* left: 260px; */
+    left: 60%;
+    height: 110%;
+    /* height: 400px; */
   }
 
   .v2 {
     top: 150%;
-    left: 260px;
-    height: 400px;
+    /* left: 260px; */
+    left: 60%;
+    height: 50%;
+    /* height: 400px; */
   }
 
   .v3 {
     top: 150%;
-    left: 140px;
-    height: 400px;
+    /* left: 140px; */
+    left: 40%;
+    height: 50%;
+    /* height: 400px; */
   }
 
   .v4 {
     top: 190%;
-    left: 260px;
-    height: 200px;
+    /* left: 260px; */
+    left: 60%;
+    height: 20%;
+    /* height: 200px; */
   }
 
   .v5 {
     top: 190%;
-    left: 140px;
-    height: 200px;
+    /* left: 140px; */
+    left: 40%;
+    height: 20%;
+    /* height: 200px; */
   }
 }
 @media (max-width: 412px) and (max-height: 824px) {
@@ -922,38 +1226,50 @@ h2 {
   }
   .vertical {
     top: 106%;
-    left: 150px;
-    height: 400px;
+    /* left: 140px; */
+    left: 40%;
+    height: 110%;
+    /* height: 400px; */
   }
 
   .v1 {
     top: 106%;
-    left: 260px;
-    height: 400px;
+    /* left: 260px; */
+    left: 60%;
+    height: 110%;
+    /* height: 400px; */
   }
 
   .v2 {
-    top: 140%;
-    left: 260px;
-    height: 400px;
+    top: 150%;
+    /* left: 260px; */
+    left: 60%;
+    height: 50%;
+    /* height: 400px; */
   }
 
   .v3 {
-    top: 140%;
-    left: 150px;
-    height: 400px;
+    top: 150%;
+    /* left: 140px; */
+    left: 40%;
+    height: 50%;
+    /* height: 400px; */
   }
 
   .v4 {
-    top: 180%;
-    left: 260px;
-    height: 200px;
+    top: 190%;
+    /* left: 260px; */
+    left: 60%;
+    height: 20%;
+    /* height: 200px; */
   }
 
   .v5 {
-    top: 180%;
-    left: 150px;
-    height: 200px;
+    top: 190%;
+    /* left: 140px; */
+    left: 40%;
+    height: 20%;
+    /* height: 200px; */
   }
 }
 @media (max-width: 412px) and (max-height: 732px) {
@@ -975,38 +1291,50 @@ h2 {
   }
   .vertical {
     top: 109%;
-    left: 140px;
-    height: 400px;
+    /* left: 140px; */
+    left: 40%;
+    height: 110%;
+    /* height: 400px; */
   }
 
   .v1 {
     top: 109%;
-    left: 260px;
-    height: 400px;
+    /* left: 260px; */
+    left: 60%;
+    height: 110%;
+    /* height: 400px; */
   }
 
   .v2 {
     top: 150%;
-    left: 260px;
-    height: 400px;
+    /* left: 260px; */
+    left: 60%;
+    height: 50%;
+    /* height: 400px; */
   }
 
   .v3 {
     top: 150%;
-    left: 140px;
-    height: 400px;
+    /* left: 140px; */
+    left: 40%;
+    height: 50%;
+    /* height: 400px; */
   }
 
   .v4 {
     top: 190%;
-    left: 260px;
-    height: 200px;
+    /* left: 260px; */
+    left: 60%;
+    height: 20%;
+    /* height: 200px; */
   }
 
   .v5 {
     top: 190%;
-    left: 140px;
-    height: 200px;
+    /* left: 140px; */
+    left: 40%;
+    height: 20%;
+    /* height: 200px; */
   }
 }
 
@@ -1019,38 +1347,50 @@ h2 {
   }
   .vertical {
     top: 109%;
-    left: 120px;
-    height: 400px;
+    /* left: 140px; */
+    left: 40%;
+    height: 110%;
+    /* height: 400px; */
   }
 
   .v1 {
     top: 109%;
-    left: 250px;
-    height: 400px;
+    /* left: 260px; */
+    left: 60%;
+    height: 110%;
+    /* height: 400px; */
   }
 
   .v2 {
     top: 150%;
-    left: 250px;
-    height: 400px;
+    /* left: 260px; */
+    left: 60%;
+    height: 50%;
+    /* height: 400px; */
   }
 
   .v3 {
     top: 150%;
-    left: 120px;
-    height: 400px;
+    /* left: 140px; */
+    left: 40%;
+    height: 50%;
+    /* height: 400px; */
   }
 
   .v4 {
-    top: 200%;
-    left: 250px;
-    height: 200px;
+    top: 190%;
+    /* left: 260px; */
+    left: 60%;
+    height: 50%;
+    /* height: 200px; */
   }
 
   .v5 {
-    top: 200%;
-    left: 120px;
-    height: 200px;
+    top: 190%;
+    /* left: 140px; */
+    left: 40%;
+    height: 50%;
+    /* height: 200px; */
   }
 }
 
@@ -1074,39 +1414,50 @@ h2 {
   }
   .vertical {
     top: 109%;
-    left: 120px;
-    height: 400px;
+    /* left: 140px; */
+    left: 40%;
+    height: 110%;
+    /* height: 400px; */
   }
 
   .v1 {
     top: 109%;
-    left: 240px;
-    height: 120px;
-    height: 400px;
+    /* left: 260px; */
+    left: 60%;
+    height: 110%;
+    /* height: 400px; */
   }
 
   .v2 {
-    top: 160%;
-    left: 240px;
-    height: 400px;
+    top: 150%;
+    /* left: 260px; */
+    left: 60%;
+    height: 50%;
+    /* height: 400px; */
   }
 
   .v3 {
-    top: 160%;
-    left: 120px;
-    height: 400px;
+    top: 150%;
+    /* left: 140px; */
+    left: 40%;
+    height: 50%;
+    /* height: 400px; */
   }
 
   .v4 {
-    top: 210%;
-    left: 240px;
-    height: 200px;
+    top: 190%;
+    /* left: 260px; */
+    left: 60%;
+    height: 50%;
+    /* height: 200px; */
   }
 
   .v5 {
-    top: 210%;
-    left: 120px;
-    height: 200px;
+    top: 190%;
+    /* left: 140px; */
+    left: 40%;
+    height: 50%;
+    /* height: 200px; */
   }
 }
 @media (max-width: 320px) and (max-height: 568px) {
@@ -1145,38 +1496,50 @@ h2 {
   }
   .vertical {
     top: 109%;
-    left: 100px;
-    height: 400px;
+    /* left: 140px; */
+    left: 40%;
+    height: 150%;
+    /* height: 400px; */
   }
 
   .v1 {
     top: 109%;
-    left: 220px;
-    height: 400px;
+    /* left: 260px; */
+    left: 60%;
+    height: 150%;
+    /* height: 400px; */
   }
 
   .v2 {
-    top: 160%;
-    left: 220px;
-    height: 400px;
+    top: 150%;
+    /* left: 260px; */
+    left: 60%;
+    height: 50%;
+    /* height: 400px; */
   }
 
   .v3 {
-    top: 160%;
-    left: 100px;
-    height: 400px;
+    top: 150%;
+    /* left: 140px; */
+    left: 40%;
+    height: 50%;
+    /* height: 400px; */
   }
 
   .v4 {
-    top: 220%;
-    left: 220px;
-    height: 200px;
+    top: 190%;
+    /* left: 260px; */
+    left: 60%;
+    height: 20%;
+    /* height: 200px; */
   }
 
   .v5 {
-    top: 220%;
-    left: 100px;
-    height: 200px;
+    top: 190%;
+    /* left: 140px; */
+    left: 40%;
+    height: 20%;
+    /* height: 200px; */
   }
 }
 .cursor {

@@ -1473,6 +1473,13 @@ h2 {
     /* height: 200px; */
   }
 }
+
+@media (max-width: 375px) and (max-height: 580px) {
+  .wrappers {
+    margin-top: 140%;
+  }
+}
+
 @media (max-width: 360px) {
   .wrappers {
     margin-top: 175%;

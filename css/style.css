@@ -1474,9 +1474,56 @@ h2 {
   }
 }
 
-@media (max-width: 375px) and (max-height: 580px) {
+@media (max-width: 375px) {
   .wrappers {
-    margin-top: 140%;
+    margin-top: 165%;
+  }
+  .vertical {
+    top: 109%;
+    /* left: 140px; */
+    left: 40%;
+    height: 150%;
+    /* height: 400px; */
+  }
+
+  .v1 {
+    top: 109%;
+    /* left: 260px; */
+    left: 60%;
+    height: 150%;
+    /* height: 400px; */
+  }
+
+  .v2 {
+    top: 150%;
+    /* left: 260px; */
+    left: 60%;
+    height: 50%;
+    /* height: 400px; */
+  }
+
+  .v3 {
+    top: 150%;
+    /* left: 140px; */
+    left: 40%;
+    height: 50%;
+    /* height: 400px; */
+  }
+
+  .v4 {
+    top: 210%;
+    /* left: 260px; */
+    left: 60%;
+    height: 50%;
+    /* height: 200px; */
+  }
+
+  .v5 {
+    top: 210%;
+    /* left: 140px; */
+    left: 40%;
+    height: 50%;
+    /* height: 200px; */
   }
 }
 

@@ -732,7 +732,7 @@ h2 {
   }
 }
 
-@media (max-width: 770px) and (max-height: 1025px) {
+@media screen and (max-width: 770px) and (max-height: 1025px) {
   /*ipad*/
   #p1 {
     font-size: 2rem;
@@ -804,7 +804,7 @@ h2 {
     height: 20%;
   }
 }
-@media (max-width: 751px) {
+@media (max-width: 767px) {
   .wrappers {
     margin-top: 100%;
   }
@@ -828,6 +828,9 @@ h2 {
   }
   .carousel img {
     height: 160px;
+  }
+  .wrappers {
+    margin-top: 90%;
   }
   .vertical {
     top: 110%;

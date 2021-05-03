@@ -732,7 +732,7 @@ h2 {
   }
 }
 
-@media (max-width: 769px) and (max-height: 1025px) {
+@media (max-width: 770px) and (max-height: 1025px) {
   /*ipad*/
   #p1 {
     font-size: 2rem;
@@ -1157,7 +1157,7 @@ h2 {
     top: 105%;
   }
   .wrappers {
-    margin-top: 180%;
+    margin-top: 170%;
   }
   .vertical {
     top: 109%;
@@ -1222,7 +1222,7 @@ h2 {
     font-weight: 700;
   }
   .wrappers {
-    margin-top: 200%;
+    margin-top: 185%;
   }
   .vertical {
     top: 106%;
@@ -1282,7 +1282,7 @@ h2 {
     top: 105%;
   }
   .wrappers {
-    margin-top: 180%;
+    margin-top: 170%;
   }
   .glry .carousel-cell img {
     height: 200px;
@@ -1338,12 +1338,22 @@ h2 {
   }
 }
 
+@media (max-width: 376px) and (max-height: 813px) {
+  /*iphone x*/
+  .wrappers {
+    margin-top: 200%;
+  }
+}
+
 @media (max-width: 376px) and (max-height: 668px) {
   /*iphone 6/7/8*/
   #small-text {
     font-size: 0.8rem;
     margin-left: 25px;
     margin-bottom: -10px;
+  }
+  .wrappers {
+    margin-top: 165%;
   }
   .vertical {
     top: 109%;
@@ -1396,7 +1406,7 @@ h2 {
 
 /* mobile size  
  moto g4 and galaxy s5*/
-@media screen and (max-width: 362px) {
+@media screen and (max-width: 362px) and (max-height: 641px) {
   h2 {
     font-size: 1.1rem;
     margin-right: -20px;
@@ -1405,7 +1415,7 @@ h2 {
     top: 105%;
   }
   .wrappers {
-    margin-top: 180%;
+    margin-top: 165%;
   }
   .glry .carousel-cell img {
     height: 200px;
@@ -1493,6 +1503,9 @@ h2 {
   h2 {
     font-size: 1rem;
     margin-right: -30px;
+  }
+  .wrappers {
+    margin-top: 160%;
   }
   .vertical {
     top: 109%;

@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
 }
 html {
   font-size: 100%;

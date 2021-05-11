@@ -335,7 +335,7 @@ h2 {
   height: 200px;
 }
 
-.contact{
+.contact {
   margin-top: 10%;
   font-size: 40px;
 }
@@ -344,8 +344,9 @@ footer {
   background: #000;
 }
 
-.foot{
+.foot {
   display: flex;
+  justify-content: space-evenly;
   padding: 60px;
   margin: 20px;
 }
@@ -357,12 +358,10 @@ footer {
   word-wrap: break-word;
 }
 
-#vitlogo{
+#vitlogo {
   height: 100px;
   width: 300px;
-
 }
-
 
 #cpy {
   color: #fff;
@@ -415,6 +414,22 @@ footer {
     margin-top: 60%;
     padding-bottom: 75px;
   }
+  .contact {
+    font-size: 38px;
+  }
+  #ieilogo {
+    height: 70px;
+    width: 70px;
+    margin-right: 5px;
+  }
+  .foot h6 {
+    font-size: 26px;
+  }
+
+  #vitlogo {
+    height: 80px;
+    width: 280px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -459,6 +474,22 @@ footer {
   }
   .carousel img {
     height: 250px;
+  }
+  .contact {
+    font-size: 30px;
+  }
+  #ieilogo {
+    height: 60px;
+    width: 60px;
+    /* margin-right: 5px; */
+  }
+  .foot h6 {
+    font-size: 24px;
+  }
+
+  #vitlogo {
+    height: 60px;
+    width: 260px;
   }
 }
 
@@ -665,6 +696,21 @@ footer {
     /* height: 200px; */
     height: 30%;
   }
+  .contact {
+    font-size: 32px;
+  }
+  #ieilogo {
+    height: 50px;
+    width: 50px;
+  }
+  .foot h6 {
+    font-size: 20px;
+  }
+
+  #vitlogo {
+    height: 50px;
+    width: 250px;
+  }
 }
 
 @media (max-width: 875px) {
@@ -840,6 +886,12 @@ footer {
     /* height: 200px; */
     height: 20%;
   }
+  .foot h6 {
+    font-size: 20px;
+  }
+  #cpy p {
+    font-size: 12px;
+  }
 }
 @media (max-width: 767px) {
   .wrappers {
@@ -990,6 +1042,15 @@ footer {
     /* height: 200px; */
     height: 50%;
   }
+  .contact {
+    font-size: 20px;
+  }
+  .foot h6 {
+    font-size: 14px;
+  }
+  .foot {
+    padding: 10px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -1078,6 +1139,9 @@ footer {
     /* height: 200px; */
     height: 20%;
   }
+  .foot h6 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -1156,6 +1220,24 @@ footer {
     left: 40%;
     /* height: 200px; */
     height: 20%;
+  }
+  #ieilogo {
+    height: 30px;
+    width: 30px;
+  }
+  .foot h6 {
+    font-size: 10px;
+  }
+
+  #vitlogo {
+    height: 30px;
+    width: 230px;
+  }
+  #cpy p {
+    font-size: 10px;
+  }
+  .foot {
+    padding: 0px;
   }
 }
 

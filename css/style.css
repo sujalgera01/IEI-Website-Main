@@ -14,7 +14,7 @@ body {
   background-image: url("../images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 500vh;
+  min-height: 100%;
   /*overflow-y: hidden;*/
   display: flex;
   flex-direction: column;
@@ -321,7 +321,8 @@ h2 {
   height: 100%;
 }
 
-.gallery {
+.gallery,
+.contact {
   text-align: center;
   color: #fff;
   font-family: "Raleway", sans-serif;
@@ -334,6 +335,42 @@ h2 {
   height: 200px;
 }
 
+.contact{
+  margin-top: 10%;
+  font-size: 40px;
+}
+
+footer {
+  background: #000;
+}
+
+.foot{
+  display: flex;
+  padding: 60px;
+  margin: 20px;
+}
+
+.foot h6 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+#vitlogo{
+  height: 100px;
+  width: 300px;
+
+}
+
+
+#cpy {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/*RESPONSIVITY*/
 @media screen and (min-width: 768px) {
   .carousel img {
     height: 400px;
@@ -1630,7 +1667,7 @@ h2 {
     /* height: 200px; */
   }
 }
-.cursor {
+/*.cursor {
   position: fixed;
   height: 40px;
   width: 40px;
@@ -1655,3 +1692,4 @@ h2 {
   transform: translate(-50%, -50%);
   transition: 0.15s;
 }
+*/

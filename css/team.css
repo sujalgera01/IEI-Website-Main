@@ -138,15 +138,28 @@ header .nav ul li a.middle:before {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 280vh;
+  min-height: 320vh;
+}
+
+.containers0 {
+  height: 165px;
+  width: 190px;
+  background-color: rgb(38, 38, 56);
+  display: flex;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
 }
 
 .containers {
   height: 165px;
   width: 190px;
   background-color: rgb(38, 38, 56);
+  display: flex;
   position: absolute;
-  top: 100%;
+  top: 150%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.5s ease-in-out;
@@ -179,6 +192,20 @@ header .nav ul li a.middle:before {
 .containers:hover .border {
   opacity: 1;
 }
+.img0 {
+  height: 190px;
+  width: 190px;
+  background-color: rgb(38, 38, 56);
+  background-image: url(../images/joel.png);
+  position: fixed;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .img1 {
   height: 190px;
@@ -195,7 +222,8 @@ header .nav ul li a.middle:before {
   transform: translate(-50%, -50%);
 }
 
-.containers h4 {
+.containers h4,
+.containers0 h4 {
   font-family: "Raleway", sans-serif;
   color: #fff;
   position: absolute;
@@ -204,6 +232,18 @@ header .nav ul li a.middle:before {
   text-align: center;
   padding-left: 10px;
   font-size: 19px;
+}
+
+.containers0 p {
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  content: "";
+  top: 80%;
+  color: #93abe3;
+  font-size: 10px;
+  /*text-align: center;*/
+  padding-left: 10px;
+  letter-spacing: 1px;
 }
 
 .containers p,
@@ -220,7 +260,7 @@ header .nav ul li a.middle:before {
 }
 .container-1 {
   position: absolute;
-  margin-top: 550px;
+  margin-top: 750px;
   height: 300px;
   width: 100%;
   display: flex;
@@ -364,7 +404,7 @@ header .nav ul li a.middle:before {
 
 .container-2 {
   position: absolute;
-  margin-top: 1000px;
+  margin-top: 1200px;
   height: 300px;
   width: 100%;
   display: flex;
@@ -374,7 +414,7 @@ header .nav ul li a.middle:before {
 
 .container-3 {
   position: absolute;
-  margin-top: 1450px;
+  margin-top: 1650px;
   height: 300px;
   width: 100%;
   display: flex;

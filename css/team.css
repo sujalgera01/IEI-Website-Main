@@ -266,6 +266,7 @@ header .nav ul li a.middle:before {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  top: 80%;
 }
 .item {
   background-color: rgb(38, 38, 56);
@@ -410,6 +411,7 @@ header .nav ul li a.middle:before {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  top: 80%;
 }
 
 .container-3 {
@@ -420,6 +422,7 @@ header .nav ul li a.middle:before {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  top: 80%;
 }
 
 #sp1 {
@@ -506,10 +509,36 @@ header .nav ul li a.middle:before {
   transform: translate(440%, 9%);
 }
 
+.container-1 .item,
+.container-2 .item,
+.container-3 .item {
+  position: relative;
+}
+
 @media (max-width: 1600px) {
   .logo img {
     height: 80px;
     width: 80px;
+  }
+  .item .contents1 h4 {
+    top: 60%;
+  }
+  .item .contents1 p {
+    top: 80%;
+  }
+  .container-3 #item-3 p {
+    top: 80%;
+  }
+  .item .contents1 #op1,
+  .item .contents1 #op2 {
+    top: 100%;
+  }
+  .item blockquote {
+    text-align: center;
+    margin-top: 5%;
+    padding: 1%;
+    font-weight: 600;
+    word-wrap: break-word;
   }
 }
 
@@ -702,9 +731,30 @@ header .nav ul li a.middle:before {
     margin-top: 5px;
     padding: 0;
   }
+
+  .containers0 {
+    height: 145px;
+    width: 170px;
+  }
+  .containers0 h4 {
+    margin-top: 1%;
+    font-size: 1.2em;
+  }
+  .img0 {
+    height: 170px;
+    width: 170px;
+  }
+  .containers0 p {
+    font-size: 0.73em;
+    font-weight: 800;
+    margin-top: 5%;
+    /* font-size: 10px; */
+    /*text-align: center;*/
+  }
   .containers {
     height: 105px;
     width: 120px;
+    margin-top: 40%;
   }
 
   .containers blockquote {
@@ -715,17 +765,6 @@ header .nav ul li a.middle:before {
     opacity: 0;
     font-family: "Raleway", sans-serif;
     font-size: 14px;
-  }
-
-  .item blockquote {
-    color: white;
-    top: 35%;
-    display: block;
-    position: absolute;
-    opacity: 0;
-    text-align: center;
-    font-size: 8px;
-    font-family: "Raleway", sans-serif;
   }
 
   .borders {
@@ -760,8 +799,6 @@ header .nav ul li a.middle:before {
   .item h4 {
     font-size: 11px;
     font-weight: 800;
-    margin-top: -25px;
-    padding: 0;
   }
   #sp2 {
     font-size: 12px;
@@ -772,24 +809,31 @@ header .nav ul li a.middle:before {
   .item p {
     font-size: 12px;
     font-weight: 800;
-    top: 50%;
-    padding: 0;
-    margin: 0;
-    margin-top: 10px;
   }
   .item #op1 {
     font-size: 10px;
-    top: 55%;
-    margin-top: 10px;
-    padding-top: 7px;
-    margin-left: 25px;
   }
   .item #op2 {
     font-size: 10px;
-    top: 55%;
-    margin-left: 5%;
-    padding-top: 7px;
   }
+  .item .contents1 h4 {
+    top: 70%;
+  }
+  .item .contents1 p {
+    top: 100%;
+  }
+  .container-3 #item-3 p {
+    top: 100%;
+  }
+  .item .contents1 #op1,
+  .item .contents1 #op2 {
+    top: 125%;
+  }
+  .item blockquote {
+    font-size: 0.6em;
+    margin-top: 2%;
+  }
+
   header .nav ul li a.middle:before {
     content: "";
     position: absolute;
@@ -809,6 +853,9 @@ header .nav ul li a.middle:before {
   .containers {
     top: 80%;
   }
+  .containers0 {
+    top: 85%;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -818,7 +865,7 @@ header .nav ul li a.middle:before {
     top: 5rem;
     flex-direction: column;
     background-color: rgb(0, 0, 0);
-    width: 100%;
+    max-width: 65%;
     border-radius: 10px;
     text-align: center;
     transition: 0.3s;
@@ -900,8 +947,33 @@ header .nav ul li a.middle:before {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  .item #op2 {
+  /* .item #op2 {
     top: 55%;
+  } */
+  .containers0 {
+    height: 115px;
+    width: 140px;
+    top: 85%;
+  }
+  .containers0 h4 {
+    font-size: 1.2em;
+  }
+  .img0 {
+    height: 140px;
+    width: 140px;
+  }
+  .containers0 p {
+    font-size: 0.7em;
+    font-weight: 800;
+    top: 100%;
+    /* font-size: 10px; */
+    /*text-align: center;*/
+  }
+  .containers {
+    height: 105px;
+    width: 120px;
+    margin-top: 40%;
+    top: 90%;
   }
 }
 
@@ -928,20 +1000,20 @@ header .nav ul li a.middle:before {
   }
   .container-1 {
     position: absolute;
-    top: 30%;
+    top: 60%;
   }
   .container-2 {
     position: absolute;
-    top: 40%;
+    top: 70%;
   }
   .container-3 {
     position: absolute;
-    top: 70%;
+    top: 95%;
   }
   .item {
     margin-bottom: 100px;
   }
-  .container-1 #item-4,
+  /* .container-1 #item-4,
   .container-2 #item-4,
   .container-3 #item-4 {
     position: relative;
@@ -953,6 +1025,23 @@ header .nav ul li a.middle:before {
   #item-4 p {
     position: absolute;
     top: 95%;
+  } */
+  .item .contents1 h4 {
+    top: 65%;
+  }
+  .item .contents1 p {
+    top: 100%;
+  }
+  .container-3 #item-3 p {
+    top: 100%;
+  }
+  .item .contents1 #op1,
+  .item .contents1 #op2 {
+    top: 125%;
+  }
+  .item blockquote {
+    margin-top: -7%;
+    padding: 1%;
   }
 }
 
@@ -969,13 +1058,13 @@ header .nav ul li a.middle:before {
     top: 25%;
   }
   .container-1 {
-    top: 25%;
+    top: 75%;
   }
   .container-2 {
-    top: 25%;
+    top: 80%;
   }
   .container-3 {
-    top: 40%;
+    top: 95%;
   }
   .img1,
   .img2,
@@ -1007,47 +1096,63 @@ header .nav ul li a.middle:before {
     width: 90px;
   }
 
+  .containers0 {
+    height: 105px;
+    width: 130px;
+  }
+  .containers0 h4 {
+    margin-top: 1%;
+    font-size: 1.2em;
+  }
+  .img0 {
+    height: 130px;
+    width: 130px;
+  }
+  .containers0 p {
+    font-size: 0.73em;
+    font-weight: 800;
+    margin-top: 5%;
+    /* font-size: 10px; */
+    /*text-align: center;*/
+  }
+  .containers {
+    margin-top: 70%;
+  }
+
   .item .contents1 h4 {
     top: 40%;
     margin-left: 5px;
     font-size: 10px;
   }
-  .item p {
-    top: 40%;
-  }
-  .item #op1 {
-    top: 45%;
-  }
-  .item #op2 {
-    top: 45%;
-  }
 
   .borders {
     top: 40%;
   }
-  .container-1 #item-3,
-  .container-2 #item-3,
-  .container-3 #item-3 {
-    position: relative;
+  .item .contents1 h4 {
+    top: 70%;
   }
-  #item-3 .contents1 h4 {
-    position: absolute;
-    top: 90%;
+  .item .contents1 p {
+    top: 100%;
   }
-  #item-3 p {
-    position: absolute;
-    top: 95%;
+  .container-3 #item-3 p {
+    top: 100%;
   }
-  #item-3 #op2 {
-    position: absolute;
-    top: 115%;
-    left: 20%;
+  .item .contents1 #op1,
+  .item .contents1 #op2 {
+    top: 130%;
+  }
+  .item blockquote {
+    margin-top: -10%;
   }
   .cursor {
     visibility: hidden;
   }
-  .cursor2{
+  .cursor2 {
     visibility: hidden;
+  }
+  .container-1 #item-2 blockquote {
+    font-size: 0.58em;
+    overflow-wrap: break-word;
   }
 }
 
@@ -1057,19 +1162,38 @@ header .nav ul li a.middle:before {
     padding: 0 40px;
   }
   .container-1 {
-    top: 25%;
+    top: 65%;
   }
   .container-2 {
-    top: 30%;
+    top: 70%;
   }
   .container-3 {
-    top: 45%;
+    top: 90%;
   }
-  #item-4 .contents1 h4 {
-    top: 95%;
+
+  .containers {
+    top: 90%;
+  }
+  .item .contents1 h4 {
+    top: 70%;
+  }
+  .item .contents1 p {
+    top: 100%;
   }
   .container-3 #item-3 p {
-    top: 95%;
+    top: 100%;
+  }
+  .item .contents1 #op1,
+  .item .contents1 #op2 {
+    top: 140%;
+  }
+  .item blockquote {
+    margin-top: -10%;
+  }
+  .container-1 #item-4 h4,
+  .container-2 #item-4 h4,
+  .container-3 #item-4 h4 {
+    top: 60%;
   }
 }
 
@@ -1093,29 +1217,29 @@ header .nav ul li a.middle:before {
     font-size: 16px;
     font-weight: 800;
   }
-  #item-2 p {
-    margin-left: -5px;
+  .item .contents1 h4 {
+    top: 70%;
   }
-  .item blockquote {
-    font-size: 7px;
-  }
-  .item p {
-    margin-left: -15px;
-  }
-  .container-1 #item-2 p {
-    margin-left: -20px;
-  }
-  .container-1 #item-2 #op2 {
-    margin-left: 15px;
-  }
-  .container-1 #item-3 #op2 {
-    top: 120%;
-    margin-left: 5px;
-  }
-  .container-1 #item-3 p {
-    margin-left: 5px;
+  .item .contents1 p {
+    top: 100%;
   }
   .container-3 #item-3 p {
-    top: 95%;
+    top: 100%;
+  }
+  .item .contents1 #op1,
+  .item .contents1 #op2 {
+    top: 130%;
+  }
+  .item blockquote {
+    margin-top: -10%;
+  }
+  .container-1 {
+    top: 50%;
+  }
+  .container-2 {
+    top: 60%;
+  }
+  .container-3 {
+    top: 77%;
   }
 }

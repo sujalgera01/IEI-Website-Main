@@ -37,10 +37,9 @@ header {
   height: 3px;
   margin: 5px auto;
   --webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
   background-color: white;
 }
-
 .logo img {
   height: 90px;
   width: 90px;
@@ -50,7 +49,8 @@ header {
 
 figcaption {
   color: #fff;
-  padding-left: 40px;
+  padding-left: 33px;
+  padding-top: 5px;
 }
 
 ul {
@@ -58,6 +58,7 @@ ul {
 }
 
 .nav ul {
+  /*position: fixed;*/
   top: 0;
   right: 0;
   width: 100%;
@@ -68,17 +69,14 @@ ul {
 }
 
 .nav ul li a {
+  font-weight: bolder;
   color: #93abe3;
   text-decoration: none;
   display: block;
   width: 100%;
-  padding: 0px 60px;
+  padding: 0px 70px;
   font-size: 20px;
   padding-bottom: 10px;
-}
-
-.nav ul li a:link {
-  font-weight: bolder;
 }
 
 .nav ul li {
@@ -107,7 +105,6 @@ header .nav ul li a.middle:before {
   visibility: visible;
   transform: scaleX(1);
 }
-
 .navbar-container {
   background: url("../images/aboutbg.jpg");
   background-repeat: no-repeat;

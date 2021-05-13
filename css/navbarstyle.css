@@ -51,9 +51,10 @@ ul {
   text-decoration: none;
   display: block;
   width: 100%;
-  padding: 0px 60px;
+  padding: 0px 70px;
   font-size: 20px;
   padding-bottom: 10px;
+  font-weight: bolder;
 }
 
 .nav ul li {

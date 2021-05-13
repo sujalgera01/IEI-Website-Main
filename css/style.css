@@ -878,6 +878,13 @@ footer {
   height: 60px;
   margin-bottom: 1em;
 }
+.button a{
+  text-decoration: none;
+  color: #000;
+}
+.button a:hover{
+  color: white;
+}
 .button:hover {
   cursor: pointer;
   box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
@@ -888,7 +895,7 @@ footer {
   background: #3b5998;
 }
 
-.twitter:hover {
+.linkedin:hover {
   background: #1da1f2;
 }
 

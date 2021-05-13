@@ -67,7 +67,7 @@ ul {
   /*position: fixed;*/
   top: 0;
   right: 0;
-  width: 65%;
+  width: 100%;
   display: flex;
   text-align: left;
   padding-top: 50px;
@@ -80,7 +80,7 @@ ul {
   text-decoration: none;
   display: block;
   width: 100%;
-  padding: 0px 60px;
+  padding: 0px 70px;
   font-size: 20px;
   padding-bottom: 10px;
 }

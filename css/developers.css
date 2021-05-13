@@ -389,7 +389,7 @@ hr {
     top: 5rem;
     flex-direction: column;
     background-color: rgb(0, 0, 0);
-    width: 100%;
+    max-width: 65%;
     border-radius: 10px;
     text-align: center;
     transition: 0.3s;

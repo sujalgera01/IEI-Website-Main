@@ -164,15 +164,17 @@ header .nav ul li a.middle:before {
 
 #h3 {
   color: #93abe3;
-  font-size: 70px;
+  font-size: 40px;
   text-align: center;
   padding-top: 50px;
+  font-weight: 500;
 }
 
 .values p {
   color: #fff;
   font-size: 25px;
   padding: 0px 50px;
+  font-weight: 500;
 }
 
 .vp {
@@ -246,12 +248,15 @@ hr {
     color: #fff;
     font-size: 20px;
     padding: 0px 40px;
+    font-weight: 500;
+
   }
   #h3 {
     color: #93abe3;
     font-size: 45px;
     text-align: center;
     padding-top: 40px;
+    font-weight: 500;
   }
 }
 
@@ -308,10 +313,14 @@ hr {
   .values p {
     font-size: 16px;
     padding: 0px 30px;
+    font-weight: 500;
+
   }
   #h3 {
     font-size: 35px;
     padding-top: 50px;
+    font-weight: 500;
+
   }
 }
 
@@ -414,10 +423,14 @@ hr {
   .values p {
     font-size: 14px;
     padding: 0px 30px;
+    font-weight: 500;
+
   }
   #h3 {
     font-size: 30px;
     padding-top: 25px;
+    font-weight: 500;
+
   }
 }
 
@@ -456,10 +469,14 @@ hr {
   .values p {
     font-size: 12px;
     padding: 0px 30px;
+    font-weight: 500;
+
   }
   #h3 {
     font-size: 25px;
     padding-top: 25px;
+    font-weight: 500;
+
   }
   .cursor {
     visibility: hidden;
@@ -467,30 +484,4 @@ hr {
   .cursor2 {
     visibility: hidden;
   }
-}
-
-.cursor {
-  position: fixed;
-  height: 40px;
-  width: 40px;
-  border: 1px solid #c6c6c6;
-  border-radius: 50%;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: 0.1s;
-}
-
-.cursor2 {
-  position: fixed;
-  height: 8px;
-  width: 8px;
-  background-color: #c6c6c6;
-  border-radius: 50%;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: 0.15s;
 }

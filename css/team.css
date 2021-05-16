@@ -138,7 +138,7 @@ header .nav ul li a.middle:before {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 330vh;
+  min-height: 340vh;
 }
 
 .containers0 {
@@ -164,34 +164,53 @@ header .nav ul li a.middle:before {
   transform: translate(-50%, -50%);
   transition: 0.5s ease-in-out;
 }
-.containers blockquote {
+
+
+.containers blockquote,
+.containers0 blockquote {
   text-align: center;
+  opacity: 0;
 }
-.containers:hover {
+.containers:hover,
+.containers0:hover {
   height: 220px;
   /* height: 220px;
   width: 220px; */
 }
 
 .containers:hover h4,
-.containers:hover p {
+.containers:hover p,
+.containers0:hover h4,
+.containers0:hover p {
   opacity: 0;
 }
+
 .centerfc:hover h4,
 .centerfc:hover p {
   opacity: 0;
 }
-/* .centerfc:hover blockquote{
+
+ /*.centerfc:hover blockquote{
   font-size: 11px;
 } */
-.containers:hover blockquote {
+
+.containers:hover blockquote{
   opacity: 1;
   text-align: center;
 }
 
-.containers:hover .border {
+.containers0:hover blockquote{
+  opacity: 1;
+  color: #fff;
+  text-align: center;
+  margin-top: 50%;
+}
+
+.containers:hover .border,
+.containers0:hover .border {
   opacity: 1;
 }
+
 .img0 {
   height: 190px;
   width: 190px;
@@ -268,6 +287,8 @@ header .nav ul li a.middle:before {
   justify-content: space-evenly;
   top: 80%;
 }
+
+
 .item {
   background-color: rgb(38, 38, 56);
   margin: 30px;
@@ -312,7 +333,7 @@ header .nav ul li a.middle:before {
   width: 190px;
   background-color: rgb(38, 38, 56);
   background-size: cover;
-  background-position: center;
+  background-position: fixed;
   border-radius: 50%;
   position: relative;
   top: 11%;
@@ -433,30 +454,16 @@ header .nav ul li a.middle:before {
   font-size: 16px;
 }
 
-.cursor {
-  position: fixed;
-  height: 40px;
-  width: 40px;
-  border: 1px solid #c6c6c6;
-  border-radius: 50%;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: 0.1s;
+.border a,
+.borders a {
+  position: relative;
+  content: '';
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
-
-.cursor2 {
-  position: fixed;
-  height: 8px;
-  width: 8px;
-  background-color: #c6c6c6;
-  border-radius: 50%;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: 0.15s;
+#x1 {
+  margin: 0 0 0 37.5%;
 }
 
 .containers blockquote {
@@ -498,6 +505,7 @@ header .nav ul li a.middle:before {
   margin-left: -1.5%;
 }
 
+
 .let a ion-icon {
   position: absolute;
   /* top: 50%; */
@@ -513,6 +521,11 @@ header .nav ul li a.middle:before {
 .container-2 .item,
 .container-3 .item {
   position: relative;
+}
+
+ion-icon {
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1600px) {

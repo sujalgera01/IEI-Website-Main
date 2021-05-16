@@ -30,7 +30,6 @@ header {
   display: inline;
   padding: 0px;
   margin: 0px;
-  width: 0%;
 }
 
 .hamburger {
@@ -79,7 +78,7 @@ ul {
   text-decoration: none;
   display: block;
   width: 100%;
-  padding: 0px 70px;
+  padding: 0px 45px;
   font-size: 20px;
   padding-bottom: 10px;
 }
@@ -417,6 +416,9 @@ hr {
   }
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+  #extra-div {
+    display: none;
   }
   header .nav ul li a.middle:before {
     top: 100%;

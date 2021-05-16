@@ -109,8 +109,8 @@ header .nav ul li a.middle:before {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 65vh;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
 }
 
 .headline {
@@ -192,10 +192,17 @@ hr {
   padding-bottom: 50px;
 }
 
+.nav ul li a {
+  padding: 0px 45px;
+}
+
 @media (max-width: 1446px) {
   * {
     padding: 0;
     margin: 0;
+  }
+  .nav ul li a {
+    padding: 0px 30px;
   }
 }
 
@@ -206,7 +213,7 @@ hr {
   }
 
   .nav ul li a {
-    padding: 0px 40px;
+    padding: 0px 30px;
     font-size: 18px;
   }
   .headline {
@@ -221,7 +228,7 @@ hr {
   }
 
   .nav ul li a {
-    padding: 0px 40px;
+    padding: 0px 30px;
     font-size: 16px;
     font-weight: 600;
   }
@@ -249,7 +256,6 @@ hr {
     font-size: 20px;
     padding: 0px 40px;
     font-weight: 500;
-
   }
   #h3 {
     color: #93abe3;
@@ -314,13 +320,11 @@ hr {
     font-size: 16px;
     padding: 0px 30px;
     font-weight: 500;
-
   }
   #h3 {
     font-size: 35px;
     padding-top: 50px;
     font-weight: 500;
-
   }
 }
 
@@ -424,13 +428,11 @@ hr {
     font-size: 14px;
     padding: 0px 30px;
     font-weight: 500;
-
   }
   #h3 {
     font-size: 30px;
     padding-top: 25px;
     font-weight: 500;
-
   }
 }
 
@@ -470,13 +472,11 @@ hr {
     font-size: 12px;
     padding: 0px 30px;
     font-weight: 500;
-
   }
   #h3 {
     font-size: 25px;
     padding-top: 25px;
     font-weight: 500;
-
   }
   .cursor {
     visibility: hidden;

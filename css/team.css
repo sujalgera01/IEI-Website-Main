@@ -166,7 +166,6 @@ header .nav ul li a.middle:before {
   transition: 0.5s ease-in-out;
 }
 
-
 .containers blockquote,
 .containers0 blockquote {
   text-align: center;
@@ -191,16 +190,16 @@ header .nav ul li a.middle:before {
   opacity: 0;
 }
 
- /*.centerfc:hover blockquote{
+/*.centerfc:hover blockquote{
   font-size: 11px;
 } */
 
-.containers:hover blockquote{
+.containers:hover blockquote {
   opacity: 1;
   text-align: center;
 }
 
-.containers0:hover blockquote{
+.containers0:hover blockquote {
   opacity: 1;
   color: #fff;
   text-align: center;
@@ -288,7 +287,6 @@ header .nav ul li a.middle:before {
   justify-content: space-evenly;
   top: 80%;
 }
-
 
 .item {
   background-color: rgb(38, 38, 56);
@@ -458,7 +456,7 @@ header .nav ul li a.middle:before {
 .border a,
 .borders a {
   position: relative;
-  content: '';
+  content: "";
   display: inline-block;
   justify-content: center;
   align-items: center;
@@ -505,7 +503,6 @@ header .nav ul li a.middle:before {
   opacity: 0;
   margin-left: -1.5%;
 }
-
 
 .let a ion-icon {
   position: absolute;

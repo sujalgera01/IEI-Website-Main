@@ -51,7 +51,7 @@ ul {
   text-decoration: none;
   display: block;
   width: 100%;
-  padding: 0px 70px;
+  padding: 0px 45px;
   font-size: 20px;
   padding-bottom: 10px;
   font-weight: bolder;
@@ -103,7 +103,7 @@ header .nav ul li a.middle:before {
     font-size: 0.9rem;
   }
   .nav ul li a {
-    padding: 0px 50px;
+    padding: 0px 30px;
     font-size: 1rem;
     /* font-size: 16px; */
   }
@@ -120,7 +120,7 @@ header .nav ul li a.middle:before {
     font-size: 0.8rem;
   }
   .nav ul li a {
-    padding: 0px 50px;
+    padding: 0px 30px;
     font-size: 0.8rem;
     font-weight: 800;
     /* font-size: 16px; */
@@ -149,7 +149,7 @@ header .nav ul li a.middle:before {
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     z-index: 10;
-    height: 100vh;
+    height: 100%;
   }
   .nav-menu.active {
     left: 0%;
@@ -172,6 +172,9 @@ header .nav ul li a.middle:before {
   }
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+  #extra-div {
+    display: none;
   }
   .nav ul li a {
     font-size: 1rem;

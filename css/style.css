@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
   user-select: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -131,11 +132,12 @@ h2 {
   text-align: center;
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   padding: 20px;
   position: absolute;
   top: 100%;
-  right: 36%;
+  right: 40%;
+  font-weight: lighter;
 }
 
 .rope {
@@ -330,8 +332,9 @@ h2 {
   text-align: center;
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   padding: 20px;
+  font-weight: lighter;
 }
 
 .carousel img {
@@ -341,7 +344,9 @@ h2 {
 
 .contact {
   margin-top: 10%;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: lighter;
+  
 }
 
 footer {

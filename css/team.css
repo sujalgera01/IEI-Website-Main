@@ -63,6 +63,7 @@ ul {
 }
 
 .nav ul li a {
+  font-weight: bolder;
   color: #93abe3;
   font-weight: lighter;
   text-decoration: none;

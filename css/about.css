@@ -108,9 +108,9 @@ header .nav ul li a.middle:before {
   background: url("../images/aboutbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
+  min-height: 65vh;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .headline {

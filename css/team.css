@@ -786,6 +786,7 @@ ion-icon {
     position: relative;
     opacity: 0;
     margin-left: -1.5%;
+    display: flex;
   }
 
   .item {

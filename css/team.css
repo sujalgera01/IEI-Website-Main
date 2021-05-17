@@ -1168,6 +1168,9 @@ ion-icon {
     font-size: 0.58em;
     overflow-wrap: break-word;
   }
+  .bottom-container {
+    min-height: 320vh;
+  }
 }
 
 @media (max-width: 470px) {
@@ -1208,6 +1211,9 @@ ion-icon {
   .container-2 #item-4 h4,
   .container-3 #item-4 h4 {
     top: 60%;
+  }
+  .bottom-container {
+    min-height: 320vh;
   }
 }
 
@@ -1255,5 +1261,8 @@ ion-icon {
   }
   .container-3 {
     top: 77%;
+  }
+  .bottom-container {
+    min-height: 300vh;
   }
 }

@@ -39,6 +39,7 @@ ul {
   width: 100%;
   display: flex;
   padding-top: 50px;
+  margin-left: -20px;
 }
 
 .head {
@@ -157,6 +158,9 @@ header .nav ul li a.middle:before {
   .nav-item {
     /* margin: 2.5rem 0; */
     margin: 1.5rem 0;
+  }
+  .nav ul {
+    margin-left: 0px;
   }
   .hamburger {
     display: block;

@@ -70,6 +70,7 @@ ul {
   text-align: left;
   padding-top: 50px;
   height: 100%;
+  margin-left: -20px;
 }
 
 .nav ul li a {
@@ -397,6 +398,9 @@ hr {
 
   .nav-menu.active {
     left: 0;
+  }
+  .nav ul {
+    margin-left: 0px;
   }
   .nav-item {
     /* margin: 2.5rem 0; */

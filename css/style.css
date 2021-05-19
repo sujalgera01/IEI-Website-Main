@@ -11,7 +11,7 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-html   {
+html {
   scroll-behavior: smooth;
 }
 
@@ -492,8 +492,8 @@ footer {
     height: 400px;
   }
   .glry .carousel-cell img {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     margin-left: 5%;
   }
   .glry {
@@ -558,6 +558,11 @@ footer {
   .domains h2 {
     top: 100%;
     font-size: 30px;
+  }
+  .glry .carousel-cell img {
+    height: 400px;
+    width: 400px;
+    margin-left: 5%;
   }
 }
 
@@ -792,6 +797,11 @@ footer {
   .contact-form {
     width: 90vw;
   }
+  .glry .carousel-cell img {
+    height: 300px;
+    width: 300px;
+    margin-left: 5%;
+  }
 }
 @media screen and (max-width: 700px) {
   .contact-form {
@@ -802,6 +812,11 @@ footer {
   }
   .contact-form .first-container {
     padding: 40px 0;
+  }
+  .glry .carousel-cell img {
+    height: 300px;
+    width: 300px;
+    margin-left: 5%;
   }
 }
 
@@ -1037,6 +1052,11 @@ footer {
     top: 100%;
     font-size: 24px;
   }
+  .glry .carousel-cell img {
+    height: 250px;
+    width: 250px;
+    margin-left: 5%;
+  }
 }
 @media (max-width: 767px) {
   .wrappers {
@@ -1125,6 +1145,11 @@ footer {
     top: 100%;
     font-size: 16px;
   }
+  .glry .carousel-cell img {
+    height: 200px;
+    width: 200px;
+    margin-left: 5%;
+  }
 }
 
 @media (max-width: 550px) {
@@ -1180,6 +1205,11 @@ footer {
   .domains h2 {
     top: 100%;
     font-size: 12px;
+  }
+  .glry .carousel-cell img {
+    height: 180px;
+    width: 180px;
+    margin-left: 5%;
   }
 }
 
@@ -1242,6 +1272,11 @@ footer {
   .domains h2 {
     top: 100%;
     font-size: 12px;
+  }
+  .glry .carousel-cell img {
+    height: 160px;
+    width: 160px;
+    margin-left: 5%;
   }
 }
 
@@ -1341,8 +1376,8 @@ footer {
     margin-top: 170%;
   }
   .glry .carousel-cell img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     margin-left: 20%;
   }
   .domains h2 {
@@ -1365,6 +1400,11 @@ footer {
     top: 100%;
     font-size: 12px;
     word-spacing: 5px;
+  }
+  .glry .carousel-cell img {
+    height: 140px;
+    width: 140px;
+    margin-left: 5%;
   }
 }
 
@@ -1404,6 +1444,11 @@ footer {
   .domains h2 {
     word-spacing: 5px;
     font-size: 11px;
+  }
+  .glry .carousel-cell img {
+    height: 130px;
+    width: 130px;
+    margin-left: 5%;
   }
 }
 
@@ -1467,5 +1512,10 @@ footer {
   }
   .wrappers {
     margin-top: 160%;
+  }
+  .glry .carousel-cell img {
+    height: 120px;
+    width: 120px;
+    margin-left: 5%;
   }
 }

@@ -174,8 +174,6 @@ header .nav ul li a.middle:before {
 .containers:hover,
 .containers0:hover {
   height: 220px;
-  /* height: 220px;
-  width: 220px; */
 }
 
 .containers:hover h4,
@@ -189,10 +187,6 @@ header .nav ul li a.middle:before {
 .centerfc:hover p {
   opacity: 0;
 }
-
-/*.centerfc:hover blockquote{
-  font-size: 11px;
-} */
 
 .containers:hover blockquote {
   opacity: 1;
@@ -570,6 +564,7 @@ ion-icon {
     font-size: 40px;
     margin-top: 100px;
   }
+  
   /* .img1,
   .img2,
   .img3,

@@ -1,10 +1,3 @@
-/*.logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-}
-*/
 .hamburger {
   display: none;
 }
@@ -60,7 +53,21 @@ ul {
 
 .nav ul li {
   position: relative;
-  animation: 2s autoplay ease-out;
+  -webkit-animation: autoplay 2s ease-out;
+}
+
+@-webkit-keyframes autoplay{
+    0%{
+      top: 0%;
+    }
+
+    50% {
+      top: 50%;
+    }
+
+    100%{
+      top: 100%;
+    }
 }
 
 .nav ul li a:hover {
